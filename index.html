@@ -30,7 +30,7 @@
 					<button class="tl-buttons icon-image"></button>
 				</div>
 				<div class="tl-separator">
-					<button class="tl-buttons icon-right-quote"></button>
+					<button class="tl-buttons icon-left-quote"></button>
 					<button class="tl-buttons icon-code"></button>
 					<button class="tl-buttons icon-color"></button>
 					<button class="tl-buttons icon-font-type"></button>
@@ -128,22 +128,40 @@
 				</div>
 				<div class="tl-popup tl-list" style="left:645px;">
 					<span class="popup-arrow"></span>
-					<div class="tl-link-cont">
-						<div class="tl-linkline">
+					<div class="tl-list-cont">
+						<div class="tl-listline">
 							<input class="tl-link-input not-empty" placeholder="URL" type="text" tabindex="1"/>
 							<label class="tl-link-label">URL</label>
 						</div>
-						<div class="tl-linkline">
+						<div class="tl-listline">
 							<input class="tl-link-input" placeholder="Text" type="text" tabindex="1"/>
 							<label class="tl-link-label">Text</label>
 						</div>
-						<div class="tl-linkline">
+						<div class="tl-listline">
 							<button class="tl-link-button">Insert</button>
 						</div>
 					</div>
 				</div>
-				<div class="tl-popup tl-list" style="left:1000px;">
+				<div class="tl-popup tl-list" style="left:980px;">
 					<span class="popup-arrow"></span>
+					<div class="tl-image-types">
+						<button class="tl-image-type-button icon-link"></button>
+						<button class="tl-image-type-button icon-upload"></button>
+					</div>
+					<div class ="tl-list-cont">
+						<div id = "tl-image-url-layer1" class="tl-image-url">
+							<input id="tl-image-input-url" class="tl-link-input not-empty" placeholder="URL" type="text" tabindex="-1"/>
+							<label class="tl-link-label">URL</label>
+							<div class="tl-listline">
+								<button class="tl-link-button">Ok</button>
+							</div>
+						</div>
+						<div id = "tl-image-dragdrop-layer2" class="tl-image-dragdrop">
+							<strong>Drop image <br/> or click</strong>
+							<div class="tl-image-file">
+								<input id="tl-image-input-file" class="tl-image-dragdrop-input" type="file" accept="image/jpeg, image/jpg, image/png, image/gif" tabindex="-1" role="button"/>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

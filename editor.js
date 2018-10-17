@@ -14,3 +14,8 @@ document.getElementsByClassName("icon-redo")[0].addEventListener("click", functi
 	console.log(event);
 	document.execCommand("redo",false,null);
 },false);
+
+document.getElementsByClassName("icon-bold")[0].addEventListener("click", function(event){
+	console.log(event);
+	document.execCommand("bold",true,null);
+},false);

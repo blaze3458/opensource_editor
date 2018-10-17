@@ -16,14 +16,17 @@ button:hover{cursor:pointer;}
 .tl-separator > button{margin:0 1px;}
 .tl-popup{position:absolute; /*display:none;*/ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px 1px rgba(0, 0, 0, 0.16); -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px 1px rgba(0, 0, 0, 0.16); text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; user-select:none; -webkit-user-select:none; z-index: 214717;}
 .popup-arrow{width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 5px solid crimson; position: absolute; top: -9px; left: 50%; margin-left: -5px; display: inline-block;}
-.tl-list{ top: 50px; left: 270px; background-color: #eeeaea; border: 0; border-top: 4px solid crimson; border-radius: 2px;}
+.tl-list{ top: 60px; left: 270px; background-color: #eeeaea; border: 0; border-top: 4px solid crimson; border-radius: 2px;}
+.tl-list-cont{display:inline-block; width:300px; margin:10px;}
 .tl-ul-list{position: relative; list-style-type: none; margin: 0; padding: 0;}
 .tl-fixed{overflow:auto; max-height:275px;}
 .tl-list-item{padding: 0; margin: 0;font-size: 15px; font-family:Arial;}
 .tl-list-item:hover{background-color:crimson; color:#ffffff; transition: .3s;}
 .list-item-elm{padding: 0 24px; line-height: 200%; display: block; cursor: pointer; white-space: nowrap; color: inherit; text-decoration: none;}
+.tl-listline{ position: relative; padding: 8px 0;}
+
 	/***Toolbar colorpicker***/
-.tl-colorpicker{top: 50px; left: 10px; border-radius: 2px; background-clip: padding-box; font-family:Arial, Helvetica, sans-serif; border-top: 5px solid crimson; background-color: #ffffff;}
+.tl-colorpicker{top: 60px; left: 10px; border-radius: 2px; background-clip: padding-box; font-family:Arial, Helvetica, sans-serif; border-top: 5px solid crimson; background-color: #ffffff;}
 .colorpicker-tabs{border: 1px solid; border-radius: 2px; background-color: #eeeaea; margin-bottom: 2px;}
 .colorpicker-tab{position: relative;display:inline-block; width:120px; padding:8px 0; text-align: center; font-size: 13px; cursor:pointer;}
 .colorpicker-tab[aria-pressed="true"]{color:#ffffff; background: crimson;-webkit-transition: .3s; -moz-transition:.3s; -ms-transition: .3s; -o-transition: .3s;}
@@ -43,13 +46,21 @@ button:hover{cursor:pointer;}
 .tl-align-item:hover{background-color:crimson; color:#ffffff; transition: .3s;}
 
 	/***Toolbar link***/
-.tl-link-cont{display:inline-block; width:300px; margin:10px;}
-.tl-linkline{ position: relative; padding: 8px 0;}
 .tl-link-input{padding: 2px; margin: 2px;width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box; outline: none; border: none; background: transparent; border-bottom: 1px solid #bdbdbd; font-family: Arial; z-index: 2;}
 .tl-link-input:focus{ border-bottom: solid 2px crimson; margin-bottom: 0px;}
 .tl-link-label{ position: absolute; top: 0; left: 0; font-size: 12px; font-family: Arial; color: transparent;}
 input.not-empty + label.tl-link-label{color:crimson;}
 .tl-link-button{background: crimson; border: none; color: #ffffff;  font-size: 15px;  padding: 10px;  box-sizing: border-box;  border-radius: 2px;  outline: none;cursor: pointer;}
+
+	/***Toolbar image***/
+.tl-image-types{-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px 1px rgba(0, 0, 0, 0.16);-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px 1px rgba(0, 0, 0, 0.16); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px 1px rgba(0, 0, 0, 0.16); padding: 0 2px; white-space: nowrap;  line-height: 0; border-bottom: 0px; background-color:#ffffff;}
+.tl-image-type-button{border: none;  background: none; font-size: 18px; cursor: pointer; width: 38px; height: 38px; color: #000000; display: inline-block;  padding: 0;  background-clip: border-box; text-decoration: none; outline: none;}
+.tl-image-type-button:hover{background-color:crimson; color:#ffffff; transition: .3s;}
+.tl-image-type-button:active{color:crimson;}
+.tl-image-url{position: relative; padding: 10px 0; margin: 0;}
+.tl-image-dragdrop{position: relative; display:inline-block; width:300px; border: dashed 2px crimson; padding: 25px 0;font-size: 14px; letter-spacing: 1px;line-height: 140%; text-align: center;font-family: Arial;}
+.tl-image-file{position: absolute;top: 0;left: 0;bottom: 0; right: 0; opacity: 0; -webkit-opacity: 0; width: 100%;}
+.tl-image-dragdrop-input{position: absolute; width: 100%; height: 100%; left: 0; top: 0; cursor: pointer;}
 
 /*EDITOR*/
 .ed-cont{position:relative; padding:0px 5px;}
@@ -80,6 +91,10 @@ input.not-empty + label.tl-link-label{color:crimson;}
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-upload:before {
+  content: "\e916";
 }
 
 .icon-redo:before {
