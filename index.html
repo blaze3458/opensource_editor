@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--===========================================================================-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--===========================================================================-->
+<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<!--===========================================================================-->
+<link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
+
+<title>Index Page</title>
+</head>
+<body>
+	<div id="root"></div>
+	<div class="toolbar">
+		<div class="tl">
+			<div class="b-tl">
+				<div class="tl-separator">
+					<button class="tl-buttons icon-undo"></button>
+					<button class="tl-buttons icon-redo"></button>
+				</div>
+				<div class="tl-separator">
+					<button class="tl-buttons icon-bold"></button>
+					<button class="tl-buttons icon-italic"></button>
+					<button class="tl-buttons icon-underline"></button>
+					<button class="tl-buttons icon-strikethrough"></button>
+				</div>
+				<div class="tl-separator">
+					<button class="tl-buttons icon-link"></button>
+					<button class="tl-buttons icon-image"></button>
+				</div>
+				<div class="tl-separator">
+					<button class="tl-buttons icon-right-quote"></button>
+					<button class="tl-buttons icon-code"></button>
+					<button class="tl-buttons icon-color"></button>
+					<button class="tl-buttons icon-font-type"></button>
+					<button class="tl-buttons icon-font-size"></button>
+					<button class="tl-buttons icon-indent-left"></button>
+					<button class="tl-buttons icon-indent-right"></button>
+					<button class="tl-buttons icon-list"></button>
+					<button class="tl-buttons icon-list-1"></button>
+					<button class="tl-buttons icon-align-center"></button>
+				</div>
+				<div class="tl-popup tl-colorpicker">
+					<span class="popup-arrow"></span>
+					<div class="colorpicker-tabs">
+						<span class="colorpicker-tab" aria-pressed="true">Text</span>
+						<span class="colorpicker-tab" aria-pressed="false">Background</span>
+					</div>
+					<div class="colors textColor selected-set">
+						<span class="color" style="background:#61BD6D" role="button"></span><!--
+						--><span class="color" style="background:#1ABC9C" role="button"></span><!--
+						--><span class="color" style="background:#54ACD2" role="button"></span><!--
+						--><span class="color" style="background:#2C82C9" role="button"></span><!--
+						--><span class="color" style="background:#9365B8" role="button"></span><!--
+						--><span class="color" style="background:#475577" role="button"></span><!--
+						--><span class="color" style="background:#CCCCCC" role="button"></span>
+						<br>
+						<span class="color" style="background:#41A85F" role="button"></span><!--
+						--><span class="color" style="background:#00A885" role="button"></span><!--
+						--><span class="color" style="background:#3D8EB9" role="button"></span><!--
+						--><span class="color" style="background:#2969B0" role="button"></span><!--
+						--><span class="color" style="background:#553982" role="button"></span><!--
+						--><span class="color" style="background:#28324E" role="button"></span><!--
+						--><span class="color" style="background:#000000" role="button"></span>
+					</div>
+					<div class="colors backgroundColor">
+						<span class="color" style="background:#61BD6D" role="button"></span><!--
+						--><span class="color" style="background:#1ABC9C" role="button"></span><!--
+						--><span class="color" style="background:#54ACD2" role="button"></span><!--
+						--><span class="color" style="background:#2C82C9" role="button"></span><!--
+						--><span class="color" style="background:#9365B8" role="button"></span><!--
+						--><span class="color" style="background:#475577" role="button"></span><!--
+						--><span class="color" style="background:#CCCCCC" role="button"></span>
+						<br>
+						<span class="color" style="background:#41A85F" role="button"></span><!--
+						--><span class="color" style="background:#00A885" role="button"></span><!--
+						--><span class="color" style="background:#3D8EB9" role="button"></span><!--
+						--><span class="color" style="background:#2969B0" role="button"></span><!--
+						--><span class="color" style="background:#553982" role="button"></span><!--
+						--><span class="color" style="background:#28324E" role="button"></span><!--
+						--><span class="color" style="background:#000000" role="button"></span>
+					</div>
+					<div class="colorpicker-hex">
+						<div class="hex-inputline">
+							<input class="hex-input" maxlength="7" placeholder="HEX Color" tabindex=1 />
+						</div>
+						<div class="hex-buttonline">
+							<button class="hex-button" type="button">OK</button>
+						</div>
+					</div>
+				</div>
+				<div class="tl-popup tl-list">
+					<span class="popup-arrow"></span>
+					<ul class="tl-align-list">
+						<li class="tl-align-item icon-align-left" role="button"></li>
+						<li class="tl-align-item icon-align-center" role="button"></li>
+						<li class="tl-align-item icon-align-right" role="button"></li>
+						<li class="tl-align-item icon-align-justify" role="button"></li>
+					</ul>
+				</div>
+				<div class="tl-popup tl-list" style="left:500px;">
+					<span class="popup-arrow"></span>
+					<div class="tl-fixed">
+						<ul class="tl-ul-list">
+							<li class="tl-list-item"><a class="list-item-elm">9</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">10</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">11</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">12</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">13</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">14</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">15</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">16</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">17</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">18</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="tl-popup tl-list" style="left:600px;">
+					<span class="popup-arrow"></span>
+					<div class="tl-fixed">
+						<ul class="tl-ul-list">
+							<li class="tl-list-item"><a class="list-item-elm">Arial</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">Tahoma</a></li>
+							<li class="tl-list-item"><a class="list-item-elm">Times New Roman</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="tl-popup tl-list" style="left:900px;">
+					<span class="popup-arrow"></span>
+					<div class="tl-link-cont">
+						<div class="tl-linkline">
+							<input class="tl-link-input not-empty" placeholder="URL" type="text" tabindex="1"/>
+							<label class="tl-link-label">URL</label>
+						</div>
+						<div class="tl-linkline">
+							<input class="tl-link-input" placeholder="Text" type="text" tabindex="1"/>
+							<label class="tl-link-label">Text</label>
+						</div>
+						<div class="tl-linkline">
+							<button class="tl-link-button">Insert</button>
+						</div>
+					</div>
+				</div>
+				<div class="tl-popup tl-list" style="left:1000px;">
+					<span class="popup-arrow"></span>
+					<div class="tl-link-cont">
+						<div class="tl-linkline">
+							<input class="tl-link-input not-empty" placeholder="URL" type="text" tabindex="1"/>
+							<label class="tl-link-label">URL</label>
+						</div>
+						<div class="tl-linkline">
+							<input class="tl-link-input" placeholder="Text" type="text" tabindex="1"/>
+							<label class="tl-link-label">Text</label>
+						</div>
+						<div class="tl-linkline">
+							<button class="tl-link-button">Insert</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ed-cont">
+		<div class="ed-in">
+			<div class="editor" contenteditable="true" data-placeholder="Text Something"><p><br></p></div>
+		</div>
+	</div>
+	<script src="editor.js">
+</script>
+</body>
+</html>
