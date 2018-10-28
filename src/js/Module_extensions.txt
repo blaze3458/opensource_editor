@@ -1,0 +1,30 @@
+modules:{
+	#toolbar : ['bold','italic','strike','underline','undo','redo','superscript','subscript','link','image','colorpicker','printer','fontsize','fonttype','indents','list-ordered','list-unordered','fullscreen','align',code_block,'emoticons']
+	#toolbar_container:false,'#container'
+	#toolbar_options:{
+		sticky:false,
+		position:top,
+		#tooltip:false
+	}
+	#fontsize:[8,9,10,11,12]
+	#fonttype:[]
+	#colorpicker:{background:[HEX,specific_name],font:[HEX,specific_name]}
+	#width
+	#height
+	#history **milisecond**
+	#custom_button:[
+		{name:button,icon:svg,function:function(){}},
+		{name:button,icon:svg,function:function(){}},
+	]
+	#custom_popup_button:{
+		[name:button,icon:svg,buttons:[{},{}]]
+	}
+	#custom_emoji:[
+		[],[],[],[],[],[],[]
+	]
+}
+#placeholder:''
+#default_font_type:
+#default_font_size:
+
+#image-resize

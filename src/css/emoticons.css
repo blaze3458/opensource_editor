@@ -1,0 +1,5096 @@
+@charset "UTF-8";
+
+
+.tl-emoticon{
+	text-align: center;
+    display: inline-block;
+    line-height: 1;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.tl-emoticon-button{
+	position: relative;
+    border: none;
+    width: 32px;
+    padding: 0;
+    height: 32px;
+    outline: none;
+    cursor: pointer;
+}
+
+.tl-emoticon-span{
+	display: inline-block;
+    padding: 5px;
+    line-height: 1;
+    cursor: default;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.tl-emoticon-span button{
+	width:20px;
+	height:20px;
+}
+
+.tl-emoticon-category{
+	max-height:200px;
+	overflow:auto;
+}
+
+/*Yüz İfadeleri*/
+.tl-emo-1F32C{
+	background:url('../emoticons/1F32C.svg');
+}
+
+.tl-emo-1F385{
+	background:url('../emoticons/1F385.svg');
+}
+
+.tl-emo-1F38E{
+	background:url('../emoticons/1F38E.svg');
+}
+
+.tl-emo-1F446{
+	background:url('../emoticons/1F446.svg');
+}
+
+.tl-emo-1F447{
+	background:url('../emoticons/1F447.svg');
+}
+
+.tl-emo-1F448{
+	background:url('../emoticons/1F448.svg');
+}
+
+.tl-emo-1F449{
+	background:url('../emoticons/1F449.svg');
+}
+
+.tl-emo-1F44A{
+	background:url('../emoticons/1F44A.svg');
+}
+
+.tl-emo-1F44B{
+	background:url('../emoticons/1F44B.svg');
+}
+
+.tl-emo-1F44C{
+	background:url('../emoticons/1F44C.svg');
+}
+
+.tl-emo-1F44D{
+	background:url('../emoticons/1F44D.svg');
+}
+
+.tl-emo-1F44E{
+	background:url('../emoticons/1F44E.svg');
+}
+
+.tl-emo-1F44F{
+	background:url('../emoticons/1F44F.svg');
+}
+
+.tl-emo-1F450{
+	background:url('../emoticons/1F450.svg');
+}
+
+.tl-emo-1F466{
+	background:url('../emoticons/1F466.svg');
+}
+
+.tl-emo-1F467{
+	background:url('../emoticons/1F467.svg');
+}
+
+.tl-emo-1F468-1F468-1F466-1F466{
+	background:url('../emoticons/1F468-1F468-1F466-1F466.svg');
+}
+
+.tl-emo-1F468-1F468-1F466{
+	background:url('../emoticons/1F468-1F468-1F466.svg');
+}
+
+.tl-emo-1F468-1F468-1F467-1F466{
+	background:url('../emoticons/1F468-1F468-1F467-1F466.svg');
+}
+
+.tl-emo-1F468-1F468-1F467-1F467{
+	background:url('../emoticons/1F468-1F468-1F467-1F467.svg');
+}
+
+.tl-emo-1F468-1F468-1F467{
+	background:url('../emoticons/1F468-1F468-1F467.svg');
+}
+
+.tl-emo-1F468-1F469-1F466-1F466{
+	background:url('../emoticons/1F468-1F469-1F466-1F466.svg');
+}
+
+.tl-emo-1F468-1F469-1F467-1F466{
+	background:url('../emoticons/1F468-1F469-1F467-1F466.svg');
+}
+
+.tl-emo-1F468-1F469-1F467-1F467{
+	background:url('../emoticons/1F468-1F469-1F467-1F467.svg');
+}
+
+.tl-emo-1F468-1F469-1F467{
+	background:url('../emoticons/1F468-1F469-1F467.svg');
+}
+
+.tl-emo-1F468-2764-1F468{
+	background:url('../emoticons/1F468-2764-1F468.svg');
+}
+
+.tl-emo-1F468-2764-1F48B-1F468{
+	background:url('../emoticons/1F468-2764-1F48B-1F468.svg');
+}
+
+.tl-emo-1F468{
+	background:url('../emoticons/1F468.svg');
+}
+
+.tl-emo-1F469-1F469-1F466-1F466{
+	background:url('../emoticons/1F469-1F469-1F466-1F466.svg');
+}
+
+.tl-emo-1F469-1F469-1F466{
+	background:url('../emoticons/1F469-1F469-1F466.svg');
+}
+
+.tl-emo-1F469-1F469-1F467-1F466{
+	background:url('../emoticons/1F469-1F469-1F467-1F466.svg');
+}
+
+.tl-emo-1F469-1F469-1F467-1F467{
+	background:url('../emoticons/1F469-1F469-1F467-1F467.svg');
+}
+
+.tl-emo-1F469-1F469-1F467{
+	background:url('../emoticons/1F469-1F469-1F467.svg');
+}
+
+.tl-emo-1F469-2764-1F469{
+	background:url('../emoticons/1F469-2764-1F469.svg');
+}
+
+.tl-emo-1F469-2764-1F48B-1F469{
+	background:url('../emoticons/1F469-2764-1F48B-1F469.svg');
+}
+
+.tl-emo-1F469{
+	background:url('../emoticons/1F469.svg');
+}
+
+.tl-emo-1F46A{
+	background:url('../emoticons/1F46A.svg');
+}
+
+.tl-emo-1F46B{
+	background:url('../emoticons/1F46B.svg');
+}
+
+.tl-emo-1F46C{
+	background:url('../emoticons/1F46C.svg');
+}
+
+.tl-emo-1F46D{
+	background:url('../emoticons/1F46D.svg');
+}
+
+.tl-emo-1F46E{
+	background:url('../emoticons/1F46E.svg');
+}
+
+.tl-emo-1F46F{
+	background:url('../emoticons/1F46F.svg');
+}
+
+.tl-emo-1F470{
+	background:url('../emoticons/1F470.svg');
+}
+
+.tl-emo-1F471{
+	background:url('../emoticons/1F471.svg');
+}
+
+.tl-emo-1F472{
+	background:url('../emoticons/1F472.svg');
+}
+
+.tl-emo-1F473{
+	background:url('../emoticons/1F473.svg');
+}
+
+.tl-emo-1F474{
+	background:url('../emoticons/1F474.svg');
+}
+
+.tl-emo-1F475{
+	background:url('../emoticons/1F475.svg');
+}
+
+.tl-emo-1F476{
+	background:url('../emoticons/1F476.svg');
+}
+
+.tl-emo-1F477{
+	background:url('../emoticons/1F477.svg');
+}
+
+.tl-emo-1F478{
+	background:url('../emoticons/1F478.svg');
+}
+
+.tl-emo-1F479{
+	background:url('../emoticons/1F479.svg');
+}
+
+.tl-emo-1F47A{
+	background:url('../emoticons/1F47A.svg');
+}
+
+.tl-emo-1F47B{
+	background:url('../emoticons/1F47B.svg');
+}
+
+.tl-emo-1F47C{
+	background:url('../emoticons/1F47C.svg');
+}
+
+.tl-emo-1F47D{
+	background:url('../emoticons/1F47D.svg');
+}
+
+.tl-emo-1F47F{
+	background:url('../emoticons/1F47F.svg');
+}
+
+.tl-emo-1F481{
+	background:url('../emoticons/1F481.svg');
+}
+
+.tl-emo-1F482{
+	background:url('../emoticons/1F482.svg');
+}
+
+.tl-emo-1F483{
+	background:url('../emoticons/1F483.svg');
+}
+
+.tl-emo-1F484{
+	background:url('../emoticons/1F484.svg');
+}
+
+.tl-emo-1F485{
+	background:url('../emoticons/1F485.svg');
+}
+
+.tl-emo-1F486{
+	background:url('../emoticons/1F486.svg');
+}
+
+.tl-emo-1F487{
+	background:url('../emoticons/1F487.svg');
+}
+
+.tl-emo-1F48F{
+	background:url('../emoticons/1F48F.svg');
+}
+
+.tl-emo-1F491{
+	background:url('../emoticons/1F491.svg');
+}
+
+.tl-emo-1F4A4{
+	background:url('../emoticons/1F4A4.svg');
+}
+
+.tl-emo-1F4A9{
+	background:url('../emoticons/1F4A9.svg');
+}
+
+.tl-emo-1F4AA{
+	background:url('../emoticons/1F4AA.svg');
+}
+
+.tl-emo-1F574{
+	background:url('../emoticons/1F574.svg');
+}
+
+.tl-emo-1F575{
+	background:url('../emoticons/1F575.svg');
+}
+
+.tl-emo-1F58E{
+	background:url('../emoticons/1F58E.svg');
+}
+
+.tl-emo-1F58F{
+	background:url('../emoticons/1F58F.svg');
+}
+
+.tl-emo-1F590{
+	background:url('../emoticons/1F590.svg');
+}
+
+.tl-emo-1F591{
+	background:url('../emoticons/1F591.svg');
+}
+
+.tl-emo-1F592{
+	background:url('../emoticons/1F592.svg');
+}
+
+.tl-emo-1F593{
+	background:url('../emoticons/1F593.svg');
+}
+
+.tl-emo-1F594{
+	background:url('../emoticons/1F594.svg');
+}
+
+.tl-emo-1F595{
+	background:url('../emoticons/1F595.svg');
+}
+
+.tl-emo-1F596{
+	background:url('../emoticons/1F596.svg');
+}
+
+.tl-emo-1F597{
+	background:url('../emoticons/1F597.svg');
+}
+
+.tl-emo-1F598{
+	background:url('../emoticons/1F598.svg');
+}
+
+.tl-emo-1F599{
+	background:url('../emoticons/1F599.svg');
+}
+
+.tl-emo-1F59E{
+	background:url('../emoticons/1F59E.svg');
+}
+
+.tl-emo-1F59F{
+	background:url('../emoticons/1F59F.svg');
+}
+
+.tl-emo-1F600{
+	background:url('../emoticons/1F600.svg');
+}
+
+.tl-emo-1F601{
+	background:url('../emoticons/1F601.svg');
+}
+
+.tl-emo-1F602{
+	background:url('../emoticons/1F602.svg');
+}
+
+.tl-emo-1F603{
+	background:url('../emoticons/1F603.svg');
+}
+
+.tl-emo-1F604{
+	background:url('../emoticons/1F604.svg');
+}
+
+.tl-emo-1F605{
+	background:url('../emoticons/1F605.svg');
+}
+
+.tl-emo-1F606{
+	background:url('../emoticons/1F606.svg');
+}
+
+.tl-emo-1F607{
+	background:url('../emoticons/1F607.svg');
+}
+
+.tl-emo-1F608{
+	background:url('../emoticons/1F608.svg');
+}
+
+.tl-emo-1F609{
+	background:url('../emoticons/1F609.svg');
+}
+
+.tl-emo-1F60A{
+	background:url('../emoticons/1F60A.svg');
+}
+
+.tl-emo-1F60B{
+	background:url('../emoticons/1F60B.svg');
+}
+
+.tl-emo-1F60C{
+	background:url('../emoticons/1F60C.svg');
+}
+
+.tl-emo-1F60D{
+	background:url('../emoticons/1F60D.svg');
+}
+
+.tl-emo-1F60E{
+	background:url('../emoticons/1F60E.svg');
+}
+
+.tl-emo-1F60F{
+	background:url('../emoticons/1F60F.svg');
+}
+
+.tl-emo-1F610{
+	background:url('../emoticons/1F610.svg');
+}
+
+.tl-emo-1F611{
+	background:url('../emoticons/1F611.svg');
+}
+
+.tl-emo-1F612{
+	background:url('../emoticons/1F612.svg');
+}
+
+.tl-emo-1F613{
+	background:url('../emoticons/1F613.svg');
+}
+
+.tl-emo-1F614{
+	background:url('../emoticons/1F614.svg');
+}
+
+.tl-emo-1F615{
+	background:url('../emoticons/1F615.svg');
+}
+
+.tl-emo-1F616{
+	background:url('../emoticons/1F616.svg');
+}
+
+.tl-emo-1F617{
+	background:url('../emoticons/1F617.svg');
+}
+
+.tl-emo-1F618{
+	background:url('../emoticons/1F618.svg');
+}
+
+.tl-emo-1F619{
+	background:url('../emoticons/1F619.svg');
+}
+
+.tl-emo-1F61A{
+	background:url('../emoticons/1F61A.svg');
+}
+
+.tl-emo-1F61B{
+	background:url('../emoticons/1F61B.svg');
+}
+
+.tl-emo-1F61C{
+	background:url('../emoticons/1F61C.svg');
+}
+
+.tl-emo-1F61D{
+	background:url('../emoticons/1F61D.svg');
+}
+
+.tl-emo-1F61E{
+	background:url('../emoticons/1F61E.svg');
+}
+
+.tl-emo-1F61F{
+	background:url('../emoticons/1F61F.svg');
+}
+
+.tl-emo-1F620{
+	background:url('../emoticons/1F620.svg');
+}
+
+.tl-emo-1F621{
+	background:url('../emoticons/1F621.svg');
+}
+
+.tl-emo-1F622{
+	background:url('../emoticons/1F622.svg');
+}
+
+.tl-emo-1F623{
+	background:url('../emoticons/1F623.svg');
+}
+
+.tl-emo-1F624{
+	background:url('../emoticons/1F624.svg');
+}
+
+.tl-emo-1F625{
+	background:url('../emoticons/1F625.svg');
+}
+
+.tl-emo-1F626{
+	background:url('../emoticons/1F626.svg');
+}
+
+.tl-emo-1F627{
+	background:url('../emoticons/1F627.svg');
+}
+
+.tl-emo-1F628{
+	background:url('../emoticons/1F628.svg');
+}
+
+.tl-emo-1F629{
+	background:url('../emoticons/1F629.svg');
+}
+
+.tl-emo-1F62A{
+	background:url('../emoticons/1F62A.svg');
+}
+
+.tl-emo-1F62B{
+	background:url('../emoticons/1F62B.svg');
+}
+
+.tl-emo-1F62C{
+	background:url('../emoticons/1F62C.svg');
+}
+
+.tl-emo-1F62D{
+	background:url('../emoticons/1F62D.svg');
+}
+
+.tl-emo-1F62E{
+	background:url('../emoticons/1F62E.svg');
+}
+
+.tl-emo-1F62F{
+	background:url('../emoticons/1F62F.svg');
+}
+
+.tl-emo-1F630{
+	background:url('../emoticons/1F630.svg');
+}
+
+.tl-emo-1F631{
+	background:url('../emoticons/1F631.svg');
+}
+
+.tl-emo-1F632{
+	background:url('../emoticons/1F632.svg');
+}
+
+.tl-emo-1F633{
+	background:url('../emoticons/1F633.svg');
+}
+
+.tl-emo-1F634{
+	background:url('../emoticons/1F634.svg');
+}
+
+.tl-emo-1F635{
+	background:url('../emoticons/1F635.svg');
+}
+
+.tl-emo-1F636{
+	background:url('../emoticons/1F636.svg');
+}
+
+.tl-emo-1F637{
+	background:url('../emoticons/1F637.svg');
+}
+
+.tl-emo-1F641{
+	background:url('../emoticons/1F641.svg');
+}
+
+.tl-emo-1F642{
+	background:url('../emoticons/1F642.svg');
+}
+
+.tl-emo-1F645{
+	background:url('../emoticons/1F645.svg');
+}
+
+.tl-emo-1F646{
+	background:url('../emoticons/1F646.svg');
+}
+
+.tl-emo-1F647{
+	background:url('../emoticons/1F647.svg');
+}
+
+.tl-emo-1F64B{
+	background:url('../emoticons/1F64B.svg');
+}
+
+.tl-emo-1F64C{
+	background:url('../emoticons/1F64C.svg');
+}
+
+.tl-emo-1F64D{
+	background:url('../emoticons/1F64D.svg');
+}
+
+.tl-emo-1F64E{
+	background:url('../emoticons/1F64E.svg');
+}
+
+.tl-emo-1F64F{
+	background:url('../emoticons/1F64F.svg');
+}
+
+.tl-emo-261D{
+	background:url('../emoticons/261D.svg');
+}
+
+.tl-emo-263A{
+	background:url('../emoticons/263A.svg');
+}
+
+.tl-emo-270A{
+	background:url('../emoticons/270A.svg');
+}
+
+.tl-emo-270B{
+	background:url('../emoticons/270B.svg');
+}
+
+.tl-emo-270C{
+	background:url('../emoticons/270C.svg');
+}
+
+/*Doğa*/
+.tl-emo-1F301{
+	background:url('../emoticons/1F301.svg');
+}
+
+.tl-emo-1F304{
+	background:url('../emoticons/1F304.svg');
+}
+
+.tl-emo-1F305{
+	background:url('../emoticons/1F305.svg');
+}
+
+.tl-emo-1F306{
+	background:url('../emoticons/1F306.svg');
+}
+
+.tl-emo-1F307{
+	background:url('../emoticons/1F307.svg');
+}
+
+.tl-emo-1F308{
+	background:url('../emoticons/1F308.svg');
+}
+
+.tl-emo-1F309{
+	background:url('../emoticons/1F309.svg');
+}
+
+.tl-emo-1F30A{
+	background:url('../emoticons/1F30A.svg');
+}
+
+.tl-emo-1F30C{
+	background:url('../emoticons/1F30C.svg');
+}
+
+.tl-emo-1F30D{
+	background:url('../emoticons/1F30D.svg');
+}
+
+.tl-emo-1F30E{
+	background:url('../emoticons/1F30E.svg');
+}
+
+.tl-emo-1F30F{
+	background:url('../emoticons/1F30F.svg');
+}
+
+.tl-emo-1F311{
+	background:url('../emoticons/1F311.svg');
+}
+
+.tl-emo-1F312{
+	background:url('../emoticons/1F312.svg');
+}
+
+.tl-emo-1F313{
+	background:url('../emoticons/1F313.svg');
+}
+
+.tl-emo-1F314{
+	background:url('../emoticons/1F314.svg');
+}
+
+.tl-emo-1F315{
+	background:url('../emoticons/1F315.svg');
+}
+
+.tl-emo-1F316{
+	background:url('../emoticons/1F316.svg');
+}
+
+.tl-emo-1F317{
+	background:url('../emoticons/1F317.svg');
+}
+
+.tl-emo-1F318{
+	background:url('../emoticons/1F318.svg');
+}
+
+.tl-emo-1F319{
+	background:url('../emoticons/1F319.svg');
+}
+
+.tl-emo-1F31A{
+	background:url('../emoticons/1F31A.svg');
+}
+
+.tl-emo-1F31B{
+	background:url('../emoticons/1F31B.svg');
+}
+
+.tl-emo-1F31C{
+	background:url('../emoticons/1F31C.svg');
+}
+
+.tl-emo-1F31D{
+	background:url('../emoticons/1F31D.svg');
+}
+
+.tl-emo-1F31E{
+	background:url('../emoticons/1F31E.svg');
+}
+
+.tl-emo-1F320{
+	background:url('../emoticons/1F320.svg');
+}
+
+.tl-emo-1F321{
+	background:url('../emoticons/1F321.svg');
+}
+
+.tl-emo-1F327{
+	background:url('../emoticons/1F327.svg');
+}
+
+.tl-emo-1F328{
+	background:url('../emoticons/1F328.svg');
+}
+
+.tl-emo-1F329{
+	background:url('../emoticons/1F329.svg');
+}
+
+.tl-emo-1F32A{
+	background:url('../emoticons/1F32A.svg');
+}
+
+.tl-emo-1F330{
+	background:url('../emoticons/1F330.svg');
+}
+
+.tl-emo-1F331{
+	background:url('../emoticons/1F331.svg');
+}
+
+.tl-emo-1F332{
+	background:url('../emoticons/1F332.svg');
+}
+
+.tl-emo-1F333{
+	background:url('../emoticons/1F333.svg');
+}
+
+.tl-emo-1F334{
+	background:url('../emoticons/1F334.svg');
+}
+
+.tl-emo-1F335{
+	background:url('../emoticons/1F335.svg');
+}
+
+.tl-emo-1F336{
+	background:url('../emoticons/1F336.svg');
+}
+
+.tl-emo-1F337{
+	background:url('../emoticons/1F337.svg');
+}
+
+.tl-emo-1F338{
+	background:url('../emoticons/1F338.svg');
+}
+
+.tl-emo-1F339{
+	background:url('../emoticons/1F339.svg');
+}
+
+.tl-emo-1F33A{
+	background:url('../emoticons/1F33A.svg');
+}
+
+.tl-emo-1F33B{
+	background:url('../emoticons/1F33B.svg');
+}
+
+.tl-emo-1F33C{
+	background:url('../emoticons/1F33C.svg');
+}
+
+.tl-emo-1F33D{
+	background:url('../emoticons/1F33D.svg');
+}
+
+.tl-emo-1F33E{
+	background:url('../emoticons/1F33E.svg');
+}
+
+.tl-emo-1F33F{
+	background:url('../emoticons/1F33F.svg');
+}
+
+.tl-emo-1F340{
+	background:url('../emoticons/1F340.svg');
+}
+
+.tl-emo-1F341{
+	background:url('../emoticons/1F341.svg');
+}
+
+.tl-emo-1F342{
+	background:url('../emoticons/1F342.svg');
+}
+
+.tl-emo-1F343{
+	background:url('../emoticons/1F343.svg');
+}
+
+.tl-emo-1F344{
+	background:url('../emoticons/1F344.svg');
+}
+
+.tl-emo-1F345{
+	background:url('../emoticons/1F345.svg');
+}
+
+.tl-emo-1F346{
+	background:url('../emoticons/1F346.svg');
+}
+
+.tl-emo-1F347{
+	background:url('../emoticons/1F347.svg');
+}
+
+.tl-emo-1F348{
+	background:url('../emoticons/1F348.svg');
+}
+
+.tl-emo-1F349{
+	background:url('../emoticons/1F349.svg');
+}
+
+.tl-emo-1F34A{
+	background:url('../emoticons/1F34A.svg');
+}
+
+.tl-emo-1F34B{
+	background:url('../emoticons/1F34B.svg');
+}
+
+.tl-emo-1F34C{
+	background:url('../emoticons/1F34C.svg');
+}
+
+.tl-emo-1F34D{
+	background:url('../emoticons/1F34D.svg');
+}
+
+.tl-emo-1F34E{
+	background:url('../emoticons/1F34E.svg');
+}
+
+.tl-emo-1F34F{
+	background:url('../emoticons/1F34F.svg');
+}
+
+.tl-emo-1F350{
+	background:url('../emoticons/1F350.svg');
+}
+
+.tl-emo-1F351{
+	background:url('../emoticons/1F351.svg');
+}
+
+.tl-emo-1F352{
+	background:url('../emoticons/1F352.svg');
+}
+
+.tl-emo-1F353{
+	background:url('../emoticons/1F353.svg');
+}
+
+.tl-emo-1F38B{
+	background:url('../emoticons/1F38B.svg');
+}
+
+.tl-emo-1F38D{
+	background:url('../emoticons/1F38D.svg');
+}
+
+.tl-emo-1F3F5{
+	background:url('../emoticons/1F3F5.svg');
+}
+
+.tl-emo-1F3F6{
+	background:url('../emoticons/1F3F6.svg');
+}
+
+.tl-emo-1F400{
+	background:url('../emoticons/1F400.svg');
+}
+
+.tl-emo-1F401{
+	background:url('../emoticons/1F401.svg');
+}
+
+.tl-emo-1F402{
+	background:url('../emoticons/1F402.svg');
+}
+
+.tl-emo-1F403{
+	background:url('../emoticons/1F403.svg');
+}
+
+.tl-emo-1F404{
+	background:url('../emoticons/1F404.svg');
+}
+
+.tl-emo-1F405{
+	background:url('../emoticons/1F405.svg');
+}
+
+.tl-emo-1F406{
+	background:url('../emoticons/1F406.svg');
+}
+
+.tl-emo-1F407{
+	background:url('../emoticons/1F407.svg');
+}
+
+.tl-emo-1F408{
+	background:url('../emoticons/1F408.svg');
+}
+
+.tl-emo-1F409{
+	background:url('../emoticons/1F409.svg');
+}
+
+.tl-emo-1F40A{
+	background:url('../emoticons/1F40A.svg');
+}
+
+.tl-emo-1F40B{
+	background:url('../emoticons/1F40B.svg');
+}
+
+.tl-emo-1F40C{
+	background:url('../emoticons/1F40C.svg');
+}
+
+.tl-emo-1F40D{
+	background:url('../emoticons/1F40D.svg');
+}
+
+.tl-emo-1F40E{
+	background:url('../emoticons/1F40E.svg');
+}
+
+.tl-emo-1F40F{
+	background:url('../emoticons/1F40F.svg');
+}
+
+.tl-emo-1F410{
+	background:url('../emoticons/1F410.svg');
+}
+
+.tl-emo-1F411{
+	background:url('../emoticons/1F411.svg');
+}
+
+.tl-emo-1F412{
+	background:url('../emoticons/1F412.svg');
+}
+
+.tl-emo-1F413{
+	background:url('../emoticons/1F413.svg');
+}
+
+.tl-emo-1F414{
+	background:url('../emoticons/1F414.svg');
+}
+
+.tl-emo-1F415{
+	background:url('../emoticons/1F415.svg');
+}
+
+.tl-emo-1F416{
+	background:url('../emoticons/1F416.svg');
+}
+
+.tl-emo-1F417{
+	background:url('../emoticons/1F417.svg');
+}
+
+.tl-emo-1F418{
+	background:url('../emoticons/1F418.svg');
+}
+
+.tl-emo-1F419{
+	background:url('../emoticons/1F419.svg');
+}
+
+.tl-emo-1F41A{
+	background:url('../emoticons/1F41A.svg');
+}
+
+.tl-emo-1F41B{
+	background:url('../emoticons/1F41B.svg');
+}
+
+.tl-emo-1F41C{
+	background:url('../emoticons/1F41C.svg');
+}
+
+.tl-emo-1F41D{
+	background:url('../emoticons/1F41D.svg');
+}
+
+.tl-emo-1F41E{
+	background:url('../emoticons/1F41E.svg');
+}
+
+.tl-emo-1F41F{
+	background:url('../emoticons/1F41F.svg');
+}
+
+.tl-emo-1F420{
+	background:url('../emoticons/1F420.svg');
+}
+
+.tl-emo-1F421{
+	background:url('../emoticons/1F421.svg');
+}
+
+.tl-emo-1F422{
+	background:url('../emoticons/1F422.svg');
+}
+
+.tl-emo-1F423{
+	background:url('../emoticons/1F423.svg');
+}
+
+.tl-emo-1F424{
+	background:url('../emoticons/1F424.svg');
+}
+
+.tl-emo-1F425{
+	background:url('../emoticons/1F425.svg');
+}
+
+.tl-emo-1F426{
+	background:url('../emoticons/1F426.svg');
+}
+
+.tl-emo-1F427{
+	background:url('../emoticons/1F427.svg');
+}
+
+.tl-emo-1F428{
+	background:url('../emoticons/1F428.svg');
+}
+
+.tl-emo-1F429{
+	background:url('../emoticons/1F429.svg');
+}
+
+.tl-emo-1F42A{
+	background:url('../emoticons/1F42A.svg');
+}
+
+.tl-emo-1F42B{
+	background:url('../emoticons/1F42B.svg');
+}
+
+.tl-emo-1F42C{
+	background:url('../emoticons/1F42C.svg');
+}
+
+.tl-emo-1F42D{
+	background:url('../emoticons/1F42D.svg');
+}
+
+.tl-emo-1F42E{
+	background:url('../emoticons/1F42E.svg');
+}
+
+.tl-emo-1F42F{
+	background:url('../emoticons/1F42F.svg');
+}
+
+.tl-emo-1F430{
+	background:url('../emoticons/1F430.svg');
+}
+
+.tl-emo-1F431{
+	background:url('../emoticons/1F431.svg');
+}
+
+.tl-emo-1F432{
+	background:url('../emoticons/1F432.svg');
+}
+
+.tl-emo-1F433{
+	background:url('../emoticons/1F433.svg');
+}
+
+.tl-emo-1F434{
+	background:url('../emoticons/1F434.svg');
+}
+
+.tl-emo-1F435{
+	background:url('../emoticons/1F435.svg');
+}
+
+.tl-emo-1F436{
+	background:url('../emoticons/1F436.svg');
+}
+
+.tl-emo-1F437{
+	background:url('../emoticons/1F437.svg');
+}
+
+.tl-emo-1F438{
+	background:url('../emoticons/1F438.svg');
+}
+
+.tl-emo-1F439{
+	background:url('../emoticons/1F439.svg');
+}
+
+.tl-emo-1F43A{
+	background:url('../emoticons/1F43A.svg');
+}
+
+.tl-emo-1F43B{
+	background:url('../emoticons/1F43B.svg');
+}
+
+.tl-emo-1F43C{
+	background:url('../emoticons/1F43C.svg');
+}
+
+.tl-emo-1F43D{
+	background:url('../emoticons/1F43D.svg');
+}
+
+.tl-emo-1F43F{
+	background:url('../emoticons/1F43F.svg');
+}
+
+.tl-emo-1F4A6{
+	background:url('../emoticons/1F4A6.svg');
+}
+
+.tl-emo-1F4A7{
+	background:url('../emoticons/1F4A7.svg');
+}
+
+.tl-emo-1F4A8{
+	background:url('../emoticons/1F4A8.svg');
+}
+
+.tl-emo-1F577{
+	background:url('../emoticons/1F577.svg');
+}
+
+.tl-emo-1F578{
+	background:url('../emoticons/1F578.svg');
+}
+
+.tl-emo-1F638{
+	background:url('../emoticons/1F638.svg');
+}
+
+.tl-emo-1F639{
+	background:url('../emoticons/1F639.svg');
+}
+
+.tl-emo-1F63A{
+	background:url('../emoticons/1F63A.svg');
+}
+
+.tl-emo-1F63B{
+	background:url('../emoticons/1F63B.svg');
+}
+
+.tl-emo-1F63C{
+	background:url('../emoticons/1F63C.svg');
+}
+
+.tl-emo-1F63D{
+	background:url('../emoticons/1F63D.svg');
+}
+
+.tl-emo-1F63E{
+	background:url('../emoticons/1F63E.svg');
+}
+
+.tl-emo-1F63F{
+	background:url('../emoticons/1F63F.svg');
+}
+
+.tl-emo-1F640{
+	background:url('../emoticons/1F640.svg');
+}
+
+.tl-emo-1F648{
+	background:url('../emoticons/1F648.svg');
+}
+
+.tl-emo-1F649{
+	background:url('../emoticons/1F649.svg');
+}
+
+.tl-emo-1F64A{
+	background:url('../emoticons/1F64A.svg');
+}
+
+.tl-emo-2600{
+	background:url('../emoticons/2600.svg');
+}
+
+.tl-emo-2601{
+	background:url('../emoticons/2601.svg');
+}
+
+.tl-emo-2614{
+	background:url('../emoticons/2614.svg');
+}
+
+.tl-emo-26C4{
+	background:url('../emoticons/26C4.svg');
+}
+
+.tl-emo-26C5{
+	background:url('../emoticons/26C5.svg');
+}
+
+.tl-emo-2744{
+	background:url('../emoticons/2744.svg');
+}
+
+/*Yiyecekler*/
+.tl-emo-1F354{
+	background:url('../emoticons/1F354.svg');
+}
+
+.tl-emo-1F355{
+	background:url('../emoticons/1F355.svg');
+}
+
+.tl-emo-1F356{
+	background:url('../emoticons/1F356.svg');
+}
+
+.tl-emo-1F357{
+	background:url('../emoticons/1F357.svg');
+}
+
+.tl-emo-1F358{
+	background:url('../emoticons/1F358.svg');
+}
+
+.tl-emo-1F359{
+	background:url('../emoticons/1F359.svg');
+}
+
+.tl-emo-1F35A{
+	background:url('../emoticons/1F35A.svg');
+}
+
+.tl-emo-1F35B{
+	background:url('../emoticons/1F35B.svg');
+}
+
+.tl-emo-1F35C{
+	background:url('../emoticons/1F35C.svg');
+}
+
+.tl-emo-1F35D{
+	background:url('../emoticons/1F35D.svg');
+}
+
+.tl-emo-1F35E{
+	background:url('../emoticons/1F35E.svg');
+}
+
+.tl-emo-1F35F{
+	background:url('../emoticons/1F35F.svg');
+}
+
+.tl-emo-1F360{
+	background:url('../emoticons/1F360.svg');
+}
+
+.tl-emo-1F361{
+	background:url('../emoticons/1F361.svg');
+}
+
+.tl-emo-1F362{
+	background:url('../emoticons/1F362.svg');
+}
+
+.tl-emo-1F363{
+	background:url('../emoticons/1F363.svg');
+}
+
+.tl-emo-1F364{
+	background:url('../emoticons/1F364.svg');
+}
+
+.tl-emo-1F365{
+	background:url('../emoticons/1F365.svg');
+}
+
+.tl-emo-1F366{
+	background:url('../emoticons/1F366.svg');
+}
+
+.tl-emo-1F367{
+	background:url('../emoticons/1F367.svg');
+}
+
+.tl-emo-1F368{
+	background:url('../emoticons/1F368.svg');
+}
+
+.tl-emo-1F369{
+	background:url('../emoticons/1F369.svg');
+}
+
+.tl-emo-1F36A{
+	background:url('../emoticons/1F36A.svg');
+}
+
+.tl-emo-1F36B{
+	background:url('../emoticons/1F36B.svg');
+}
+
+.tl-emo-1F36C{
+	background:url('../emoticons/1F36C.svg');
+}
+
+.tl-emo-1F36D{
+	background:url('../emoticons/1F36D.svg');
+}
+
+.tl-emo-1F36E{
+	background:url('../emoticons/1F36E.svg');
+}
+
+.tl-emo-1F36F{
+	background:url('../emoticons/1F36F.svg');
+}
+
+.tl-emo-1F370{
+	background:url('../emoticons/1F370.svg');
+}
+
+.tl-emo-1F371{
+	background:url('../emoticons/1F371.svg');
+}
+
+.tl-emo-1F372{
+	background:url('../emoticons/1F372.svg');
+}
+
+.tl-emo-1F373{
+	background:url('../emoticons/1F373.svg');
+}
+
+.tl-emo-1F374{
+	background:url('../emoticons/1F374.svg');
+}
+
+.tl-emo-1F375{
+	background:url('../emoticons/1F375.svg');
+}
+
+.tl-emo-1F377{
+	background:url('../emoticons/1F377.svg');
+}
+
+.tl-emo-1F378{
+	background:url('../emoticons/1F378.svg');
+}
+
+.tl-emo-1F379{
+	background:url('../emoticons/1F379.svg');
+}
+
+.tl-emo-1F37A{
+	background:url('../emoticons/1F37A.svg');
+}
+
+.tl-emo-1F37B{
+	background:url('../emoticons/1F37B.svg');
+}
+
+.tl-emo-1F37C{
+	background:url('../emoticons/1F37C.svg');
+}
+
+.tl-emo-1F37D{
+	background:url('../emoticons/1F37D.svg');
+}
+
+.tl-emo-2615{
+	background:url('../emoticons/2615.svg');
+}
+
+/*Semboller*/
+.tl-emo-0023-20E3{
+	background:url('../emoticons/0023-20E3.svg');
+}
+
+.tl-emo-0030-20E3{
+	background:url('../emoticons/0030-20E3.svg');
+}
+
+.tl-emo-0031-20E3{
+	background:url('../emoticons/0031-20E3.svg');
+}
+
+.tl-emo-0032-20E3{
+	background:url('../emoticons/0032-20E3.svg');
+}
+
+.tl-emo-0033-20E3{
+	background:url('../emoticons/0033-20E3.svg');
+}
+
+.tl-emo-0034-20E3{
+	background:url('../emoticons/0034-20E3.svg');
+}
+
+.tl-emo-0035-20E3{
+	background:url('../emoticons/0035-20E3.svg');
+}
+
+.tl-emo-0036-20E3{
+	background:url('../emoticons/0036-20E3.svg');
+}
+
+.tl-emo-0037-20E3{
+	background:url('../emoticons/0037-20E3.svg');
+}
+
+.tl-emo-0038-20E3{
+	background:url('../emoticons/0038-20E3.svg');
+}
+
+.tl-emo-0039-20E3{
+	background:url('../emoticons/0039-20E3.svg');
+}
+
+.tl-emo-00A9{
+	background:url('../emoticons/00A9.svg');
+}
+
+.tl-emo-00AE{
+	background:url('../emoticons/00AE.svg');
+}
+
+.tl-emo-1F004{
+	background:url('../emoticons/1F004.svg');
+}
+
+.tl-emo-1F170{
+	background:url('../emoticons/1F170.svg');
+}
+
+.tl-emo-1F171{
+	background:url('../emoticons/1F171.svg');
+}
+
+.tl-emo-1F17E{
+	background:url('../emoticons/1F17E.svg');
+}
+
+.tl-emo-1F17F{
+	background:url('../emoticons/1F17F.svg');
+}
+
+.tl-emo-1F18E{
+	background:url('../emoticons/1F18E.svg');
+}
+
+.tl-emo-1F191{
+	background:url('../emoticons/1F191.svg');
+}
+
+.tl-emo-1F192{
+	background:url('../emoticons/1F192.svg');
+}
+
+.tl-emo-1F193{
+	background:url('../emoticons/1F193.svg');
+}
+
+.tl-emo-1F194{
+	background:url('../emoticons/1F194.svg');
+}
+
+.tl-emo-1F195{
+	background:url('../emoticons/1F195.svg');
+}
+
+.tl-emo-1F196{
+	background:url('../emoticons/1F196.svg');
+}
+
+.tl-emo-1F197{
+	background:url('../emoticons/1F197.svg');
+}
+
+.tl-emo-1F198{
+	background:url('../emoticons/1F198.svg');
+}
+
+.tl-emo-1F199{
+	background:url('../emoticons/1F199.svg');
+}
+
+.tl-emo-1F19A{
+	background:url('../emoticons/1F19A.svg');
+}
+
+.tl-emo-1F201{
+	background:url('../emoticons/1F201.svg');
+}
+
+.tl-emo-1F202{
+	background:url('../emoticons/1F202.svg');
+}
+
+.tl-emo-1F21A{
+	background:url('../emoticons/1F21A.svg');
+}
+
+.tl-emo-1F22F{
+	background:url('../emoticons/1F22F.svg');
+}
+
+.tl-emo-1F232{
+	background:url('../emoticons/1F232.svg');
+}
+
+.tl-emo-1F233{
+	background:url('../emoticons/1F233.svg');
+}
+
+.tl-emo-1F234{
+	background:url('../emoticons/1F234.svg');
+}
+
+.tl-emo-1F235{
+	background:url('../emoticons/1F235.svg');
+}
+
+.tl-emo-1F236{
+	background:url('../emoticons/1F236.svg');
+}
+
+.tl-emo-1F237{
+	background:url('../emoticons/1F237.svg');
+}
+
+.tl-emo-1F238{
+	background:url('../emoticons/1F238.svg');
+}
+
+.tl-emo-1F239{
+	background:url('../emoticons/1F239.svg');
+}
+
+.tl-emo-1F23A{
+	background:url('../emoticons/1F23A.svg');
+}
+
+.tl-emo-1F250{
+	background:url('../emoticons/1F250.svg');
+}
+
+.tl-emo-1F251{
+	background:url('../emoticons/1F251.svg');
+}
+
+.tl-emo-1F300{
+	background:url('../emoticons/1F300.svg');
+}
+
+.tl-emo-1F302{
+	background:url('../emoticons/1F302.svg');
+}
+
+.tl-emo-1F303{
+	background:url('../emoticons/1F303.svg');
+}
+
+.tl-emo-1F310{
+	background:url('../emoticons/1F310.svg');
+}
+
+.tl-emo-1F31F{
+	background:url('../emoticons/1F31F.svg');
+}
+
+.tl-emo-1F376{
+	background:url('../emoticons/1F376.svg');
+}
+
+.tl-emo-1F380{
+	background:url('../emoticons/1F380.svg');
+}
+
+.tl-emo-1F381{
+	background:url('../emoticons/1F381.svg');
+}
+
+.tl-emo-1F382{
+	background:url('../emoticons/1F382.svg');
+}
+
+.tl-emo-1F383{
+	background:url('../emoticons/1F383.svg');
+}
+
+.tl-emo-1F384{
+	background:url('../emoticons/1F384.svg');
+}
+
+.tl-emo-1F386{
+	background:url('../emoticons/1F386.svg');
+}
+
+.tl-emo-1F387{
+	background:url('../emoticons/1F387.svg');
+}
+
+.tl-emo-1F388{
+	background:url('../emoticons/1F388.svg');
+}
+
+.tl-emo-1F389{
+	background:url('../emoticons/1F389.svg');
+}
+
+.tl-emo-1F390{
+	background:url('../emoticons/1F390.svg');
+}
+
+.tl-emo-1F392{
+	background:url('../emoticons/1F392.svg');
+}
+
+.tl-emo-1F393{
+	background:url('../emoticons/1F393.svg');
+}
+
+.tl-emo-1F394{
+	background:url('../emoticons/1F394.svg');
+}
+
+.tl-emo-1F395{
+	background:url('../emoticons/1F395.svg');
+}
+
+.tl-emo-1F396{
+	background:url('../emoticons/1F396.svg');
+}
+
+.tl-emo-1F397{
+	background:url('../emoticons/1F397.svg');
+}
+
+.tl-emo-1F3A6{
+	background:url('../emoticons/1F3A6.svg');
+}
+
+.tl-emo-1F3AB{
+	background:url('../emoticons/1F3AB.svg');
+}
+
+.tl-emo-1F3F7{
+	background:url('../emoticons/1F3F7.svg');
+}
+
+.tl-emo-1F43E{
+	background:url('../emoticons/1F43E.svg');
+}
+
+.tl-emo-1F440{
+	background:url('../emoticons/1F440.svg');
+}
+
+.tl-emo-1F441{
+	background:url('../emoticons/1F441.svg');
+}
+
+.tl-emo-1F442{
+	background:url('../emoticons/1F442.svg');
+}
+
+.tl-emo-1F443{
+	background:url('../emoticons/1F443.svg');
+}
+
+.tl-emo-1F444{
+	background:url('../emoticons/1F444.svg');
+}
+
+.tl-emo-1F445{
+	background:url('../emoticons/1F445.svg');
+}
+
+.tl-emo-1F451{
+	background:url('../emoticons/1F451.svg');
+}
+
+.tl-emo-1F452{
+	background:url('../emoticons/1F452.svg');
+}
+
+.tl-emo-1F453{
+	background:url('../emoticons/1F453.svg');
+}
+
+.tl-emo-1F454{
+	background:url('../emoticons/1F454.svg');
+}
+
+.tl-emo-1F455{
+	background:url('../emoticons/1F455.svg');
+}
+
+.tl-emo-1F456{
+	background:url('../emoticons/1F456.svg');
+}
+
+.tl-emo-1F457{
+	background:url('../emoticons/1F457.svg');
+}
+
+.tl-emo-1F458{
+	background:url('../emoticons/1F458.svg');
+}
+
+.tl-emo-1F459{
+	background:url('../emoticons/1F459.svg');
+}
+
+.tl-emo-1F45A{
+	background:url('../emoticons/1F45A.svg');
+}
+
+.tl-emo-1F45B{
+	background:url('../emoticons/1F45B.svg');
+}
+
+.tl-emo-1F45C{
+	background:url('../emoticons/1F45C.svg');
+}
+
+.tl-emo-1F45E{
+	background:url('../emoticons/1F45E.svg');
+}
+
+.tl-emo-1F45F{
+	background:url('../emoticons/1F45F.svg');
+}
+
+.tl-emo-1F460{
+	background:url('../emoticons/1F460.svg');
+}
+
+.tl-emo-1F461{
+	background:url('../emoticons/1F461.svg');
+}
+
+.tl-emo-1F462{
+	background:url('../emoticons/1F462.svg');
+}
+
+.tl-emo-1F463{
+	background:url('../emoticons/1F463.svg');
+}
+
+.tl-emo-1F464{
+	background:url('../emoticons/1F464.svg');
+}
+
+.tl-emo-1F465{
+	background:url('../emoticons/1F465.svg');
+}
+
+.tl-emo-1F47E{
+	background:url('../emoticons/1F47E.svg');
+}
+
+.tl-emo-1F480{
+	background:url('../emoticons/1F480.svg');
+}
+
+.tl-emo-1F488{
+	background:url('../emoticons/1F488.svg');
+}
+
+.tl-emo-1F489{
+	background:url('../emoticons/1F489.svg');
+}
+
+.tl-emo-1F48B{
+	background:url('../emoticons/1F48B.svg');
+}
+
+.tl-emo-1F48C{
+	background:url('../emoticons/1F48C.svg');
+}
+
+.tl-emo-1F48D{
+	background:url('../emoticons/1F48D.svg');
+}
+
+.tl-emo-1F48E{
+	background:url('../emoticons/1F48E.svg');
+}
+
+.tl-emo-1F490{
+	background:url('../emoticons/1F490.svg');
+}
+
+.tl-emo-1F492{
+	background:url('../emoticons/1F492.svg');
+}
+
+.tl-emo-1F493{
+	background:url('../emoticons/1F493.svg');
+}
+
+.tl-emo-1F494{
+	background:url('../emoticons/1F494.svg');
+}
+
+.tl-emo-1F495{
+	background:url('../emoticons/1F495.svg');
+}
+
+.tl-emo-1F496{
+	background:url('../emoticons/1F496.svg');
+}
+
+.tl-emo-1F497{
+	background:url('../emoticons/1F497.svg');
+}
+
+.tl-emo-1F498{
+	background:url('../emoticons/1F498.svg');
+}
+
+.tl-emo-1F499{
+	background:url('../emoticons/1F499.svg');
+}
+
+.tl-emo-1F49A{
+	background:url('../emoticons/1F49A.svg');
+}
+
+.tl-emo-1F49B{
+	background:url('../emoticons/1F49B.svg');
+}
+
+.tl-emo-1F49C{
+	background:url('../emoticons/1F49C.svg');
+}
+
+.tl-emo-1F49D{
+	background:url('../emoticons/1F49D.svg');
+}
+
+.tl-emo-1F49E{
+	background:url('../emoticons/1F49E.svg');
+}
+
+.tl-emo-1F49F{
+	background:url('../emoticons/1F49F.svg');
+}
+
+.tl-emo-1F4A0{
+	background:url('../emoticons/1F4A0.svg');
+}
+
+.tl-emo-1F4A2{
+	background:url('../emoticons/1F4A2.svg');
+}
+
+.tl-emo-1F4A3{
+	background:url('../emoticons/1F4A3.svg');
+}
+
+.tl-emo-1F4A5{
+	background:url('../emoticons/1F4A5.svg');
+}
+
+.tl-emo-1F4AB{
+	background:url('../emoticons/1F4AB.svg');
+}
+
+.tl-emo-1F4AC{
+	background:url('../emoticons/1F4AC.svg');
+}
+
+.tl-emo-1F4AD{
+	background:url('../emoticons/1F4AD.svg');
+}
+
+.tl-emo-1F4AE{
+	background:url('../emoticons/1F4AE.svg');
+}
+
+.tl-emo-1F4AF{
+	background:url('../emoticons/1F4AF.svg');
+}
+
+.tl-emo-1F4B1{
+	background:url('../emoticons/1F4B1.svg');
+}
+
+.tl-emo-1F4B2{
+	background:url('../emoticons/1F4B2.svg');
+}
+
+.tl-emo-1F4B9{
+	background:url('../emoticons/1F4B9.svg');
+}
+
+.tl-emo-1F4C7{
+	background:url('../emoticons/1F4C7.svg');
+}
+
+.tl-emo-1F4C8{
+	background:url('../emoticons/1F4C8.svg');
+}
+
+.tl-emo-1F4C9{
+	background:url('../emoticons/1F4C9.svg');
+}
+
+.tl-emo-1F4CA{
+	background:url('../emoticons/1F4CA.svg');
+}
+
+.tl-emo-1F4DB{
+	background:url('../emoticons/1F4DB.svg');
+}
+
+.tl-emo-1F4E0{
+	background:url('../emoticons/1F4E0.svg');
+}
+
+.tl-emo-1F4E4{
+	background:url('../emoticons/1F4E4.svg');
+}
+
+.tl-emo-1F4E5{
+	background:url('../emoticons/1F4E5.svg');
+}
+
+.tl-emo-1F4E7{
+	background:url('../emoticons/1F4E7.svg');
+}
+
+.tl-emo-1F4E8{
+	background:url('../emoticons/1F4E8.svg');
+}
+
+.tl-emo-1F4E9{
+	background:url('../emoticons/1F4E9.svg');
+}
+
+.tl-emo-1F4F3{
+	background:url('../emoticons/1F4F3.svg');
+}
+
+.tl-emo-1F4F4{
+	background:url('../emoticons/1F4F4.svg');
+}
+
+.tl-emo-1F4F5{
+	background:url('../emoticons/1F4F5.svg');
+}
+
+.tl-emo-1F4F6{
+	background:url('../emoticons/1F4F6.svg');
+}
+
+.tl-emo-1F500{
+	background:url('../emoticons/1F500.svg');
+}
+
+.tl-emo-1F501{
+	background:url('../emoticons/1F501.svg');
+}
+
+.tl-emo-1F502{
+	background:url('../emoticons/1F502.svg');
+}
+
+.tl-emo-1F503{
+	background:url('../emoticons/1F503.svg');
+}
+
+.tl-emo-1F504{
+	background:url('../emoticons/1F504.svg');
+}
+
+.tl-emo-1F505{
+	background:url('../emoticons/1F505.svg');
+}
+
+.tl-emo-1F506{
+	background:url('../emoticons/1F506.svg');
+}
+
+.tl-emo-1F50F{
+	background:url('../emoticons/1F50F.svg');
+}
+
+.tl-emo-1F516{
+	background:url('../emoticons/1F516.svg');
+}
+
+.tl-emo-1F518{
+	background:url('../emoticons/1F518.svg');
+}
+
+.tl-emo-1F519{
+	background:url('../emoticons/1F519.svg');
+}
+
+.tl-emo-1F51A{
+	background:url('../emoticons/1F51A.svg');
+}
+
+.tl-emo-1F51B{
+	background:url('../emoticons/1F51B.svg');
+}
+
+.tl-emo-1F51C{
+	background:url('../emoticons/1F51C.svg');
+}
+
+.tl-emo-1F51D{
+	background:url('../emoticons/1F51D.svg');
+}
+
+.tl-emo-1F51E{
+	background:url('../emoticons/1F51E.svg');
+}
+
+.tl-emo-1F51F{
+	background:url('../emoticons/1F51F.svg');
+}
+
+.tl-emo-1F520{
+	background:url('../emoticons/1F520.svg');
+}
+
+.tl-emo-1F521{
+	background:url('../emoticons/1F521.svg');
+}
+
+.tl-emo-1F522{
+	background:url('../emoticons/1F522.svg');
+}
+
+.tl-emo-1F523{
+	background:url('../emoticons/1F523.svg');
+}
+
+.tl-emo-1F524{
+	background:url('../emoticons/1F524.svg');
+}
+
+.tl-emo-1F525{
+	background:url('../emoticons/1F525.svg');
+}
+
+.tl-emo-1F52F{
+	background:url('../emoticons/1F52F.svg');
+}
+
+.tl-emo-1F530{
+	background:url('../emoticons/1F530.svg');
+}
+
+.tl-emo-1F532{
+	background:url('../emoticons/1F532.svg');
+}
+
+.tl-emo-1F533{
+	background:url('../emoticons/1F533.svg');
+}
+
+.tl-emo-1F534{
+	background:url('../emoticons/1F534.svg');
+}
+
+.tl-emo-1F535{
+	background:url('../emoticons/1F535.svg');
+}
+
+.tl-emo-1F536{
+	background:url('../emoticons/1F536.svg');
+}
+
+.tl-emo-1F537{
+	background:url('../emoticons/1F537.svg');
+}
+
+.tl-emo-1F538{
+	background:url('../emoticons/1F538.svg');
+}
+
+.tl-emo-1F539{
+	background:url('../emoticons/1F539.svg');
+}
+
+.tl-emo-1F53A{
+	background:url('../emoticons/1F53A.svg');
+}
+
+.tl-emo-1F53B{
+	background:url('../emoticons/1F53B.svg');
+}
+
+.tl-emo-1F53C{
+	background:url('../emoticons/1F53C.svg');
+}
+
+.tl-emo-1F53D{
+	background:url('../emoticons/1F53D.svg');
+}
+
+.tl-emo-1F546{
+	background:url('../emoticons/1F546.svg');
+}
+
+.tl-emo-1F547{
+	background:url('../emoticons/1F547.svg');
+}
+
+.tl-emo-1F548{
+	background:url('../emoticons/1F548.svg');
+}
+
+.tl-emo-1F549{
+	background:url('../emoticons/1F549.svg');
+}
+
+.tl-emo-1F54A{
+	background:url('../emoticons/1F54A.svg');
+}
+
+.tl-emo-1F550{
+	background:url('../emoticons/1F550.svg');
+}
+
+.tl-emo-1F551{
+	background:url('../emoticons/1F551.svg');
+}
+
+.tl-emo-1F552{
+	background:url('../emoticons/1F552.svg');
+}
+
+.tl-emo-1F553{
+	background:url('../emoticons/1F553.svg');
+}
+
+.tl-emo-1F554{
+	background:url('../emoticons/1F554.svg');
+}
+
+.tl-emo-1F555{
+	background:url('../emoticons/1F555.svg');
+}
+
+.tl-emo-1F556{
+	background:url('../emoticons/1F556.svg');
+}
+
+.tl-emo-1F557{
+	background:url('../emoticons/1F557.svg');
+}
+
+.tl-emo-1F558{
+	background:url('../emoticons/1F558.svg');
+}
+
+.tl-emo-1F559{
+	background:url('../emoticons/1F559.svg');
+}
+
+.tl-emo-1F55A{
+	background:url('../emoticons/1F55A.svg');
+}
+
+.tl-emo-1F55B{
+	background:url('../emoticons/1F55B.svg');
+}
+
+.tl-emo-1F55C{
+	background:url('../emoticons/1F55C.svg');
+}
+
+.tl-emo-1F55D{
+	background:url('../emoticons/1F55D.svg');
+}
+
+.tl-emo-1F55E{
+	background:url('../emoticons/1F55E.svg');
+}
+
+.tl-emo-1F55F{
+	background:url('../emoticons/1F55F.svg');
+}
+
+.tl-emo-1F560{
+	background:url('../emoticons/1F560.svg');
+}
+
+.tl-emo-1F561{
+	background:url('../emoticons/1F561.svg');
+}
+
+.tl-emo-1F562{
+	background:url('../emoticons/1F562.svg');
+}
+
+.tl-emo-1F563{
+	background:url('../emoticons/1F563.svg');
+}
+
+.tl-emo-1F564{
+	background:url('../emoticons/1F564.svg');
+}
+
+.tl-emo-1F565{
+	background:url('../emoticons/1F565.svg');
+}
+
+.tl-emo-1F566{
+	background:url('../emoticons/1F566.svg');
+}
+
+.tl-emo-1F567{
+	background:url('../emoticons/1F567.svg');
+}
+
+.tl-emo-1F571{
+	background:url('../emoticons/1F571.svg');
+}
+
+.tl-emo-1F572{
+	background:url('../emoticons/1F572.svg');
+}
+
+.tl-emo-1F573{
+	background:url('../emoticons/1F573.svg');
+}
+
+.tl-emo-1F57B{
+	background:url('../emoticons/1F57B.svg');
+}
+
+.tl-emo-1F57E{
+	background:url('../emoticons/1F57E.svg');
+}
+
+.tl-emo-1F57F{
+	background:url('../emoticons/1F57F.svg');
+}
+
+.tl-emo-1F5D8{
+	background:url('../emoticons/1F5D8.svg');
+}
+
+.tl-emo-1F5E0{
+	background:url('../emoticons/1F5E0.svg');
+}
+
+.tl-emo-1F5E2{
+	background:url('../emoticons/1F5E2.svg');
+}
+
+.tl-emo-1F5E3{
+	background:url('../emoticons/1F5E3.svg');
+}
+
+.tl-emo-1F5E8{
+	background:url('../emoticons/1F5E8.svg');
+}
+
+.tl-emo-1F5E9{
+	background:url('../emoticons/1F5E9.svg');
+}
+
+.tl-emo-1F5EA{
+	background:url('../emoticons/1F5EA.svg');
+}
+
+.tl-emo-1F5EB{
+	background:url('../emoticons/1F5EB.svg');
+}
+
+.tl-emo-1F5EC{
+	background:url('../emoticons/1F5EC.svg');
+}
+
+.tl-emo-1F5ED{
+	background:url('../emoticons/1F5ED.svg');
+}
+
+.tl-emo-1F5EE{
+	background:url('../emoticons/1F5EE.svg');
+}
+
+.tl-emo-1F5EF{
+	background:url('../emoticons/1F5EF.svg');
+}
+
+.tl-emo-1F5F0{
+	background:url('../emoticons/1F5F0.svg');
+}
+
+.tl-emo-1F5F1{
+	background:url('../emoticons/1F5F1.svg');
+}
+
+.tl-emo-1F5F2{
+	background:url('../emoticons/1F5F2.svg');
+}
+
+.tl-emo-1F5F3{
+	background:url('../emoticons/1F5F3.svg');
+}
+
+.tl-emo-1F5F4{
+	background:url('../emoticons/1F5F4.svg');
+}
+
+.tl-emo-1F5F5{
+	background:url('../emoticons/1F5F5.svg');
+}
+
+.tl-emo-1F5F8{
+	background:url('../emoticons/1F5F8.svg');
+}
+
+.tl-emo-1F5F9{
+	background:url('../emoticons/1F5F9.svg');
+}
+
+.tl-emo-1F6A9{
+	background:url('../emoticons/1F6A9.svg');
+}
+
+.tl-emo-1F6AB{
+	background:url('../emoticons/1F6AB.svg');
+}
+
+.tl-emo-1F6AD{
+	background:url('../emoticons/1F6AD.svg');
+}
+
+.tl-emo-1F6AE{
+	background:url('../emoticons/1F6AE.svg');
+}
+
+.tl-emo-1F6AF{
+	background:url('../emoticons/1F6AF.svg');
+}
+
+.tl-emo-1F6B0{
+	background:url('../emoticons/1F6B0.svg');
+}
+
+.tl-emo-1F6B1{
+	background:url('../emoticons/1F6B1.svg');
+}
+
+.tl-emo-1F6B3{
+	background:url('../emoticons/1F6B3.svg');
+}
+
+.tl-emo-1F6B7{
+	background:url('../emoticons/1F6B7.svg');
+}
+
+.tl-emo-1F6B8{
+	background:url('../emoticons/1F6B8.svg');
+}
+
+.tl-emo-1F6B9{
+	background:url('../emoticons/1F6B9.svg');
+}
+
+.tl-emo-1F6BA{
+	background:url('../emoticons/1F6BA.svg');
+}
+
+.tl-emo-1F6BB{
+	background:url('../emoticons/1F6BB.svg');
+}
+
+.tl-emo-1F6BC{
+	background:url('../emoticons/1F6BC.svg');
+}
+
+.tl-emo-1F6BE{
+	background:url('../emoticons/1F6BE.svg');
+}
+
+.tl-emo-1F6C2{
+	background:url('../emoticons/1F6C2.svg');
+}
+
+.tl-emo-1F6C3{
+	background:url('../emoticons/1F6C3.svg');
+}
+
+.tl-emo-1F6C4{
+	background:url('../emoticons/1F6C4.svg');
+}
+
+.tl-emo-1F6C5{
+	background:url('../emoticons/1F6C5.svg');
+}
+
+.tl-emo-1F6C6{
+	background:url('../emoticons/1F6C6.svg');
+}
+
+.tl-emo-1F6C7{
+	background:url('../emoticons/1F6C7.svg');
+}
+
+.tl-emo-1F6C8{
+	background:url('../emoticons/1F6C8.svg');
+}
+
+.tl-emo-1F6C9{
+	background:url('../emoticons/1F6C9.svg');
+}
+
+.tl-emo-1F6CA{
+	background:url('../emoticons/1F6CA.svg');
+}
+
+.tl-emo-1F6CC{
+	background:url('../emoticons/1F6CC.svg');
+}
+
+.tl-emo-1F6E1{
+	background:url('../emoticons/1F6E1.svg');
+}
+
+.tl-emo-203C{
+	background:url('../emoticons/203C.svg');
+}
+
+.tl-emo-2049{
+	background:url('../emoticons/2049.svg');
+}
+
+.tl-emo-2122{
+	background:url('../emoticons/2122.svg');
+}
+
+.tl-emo-2139{
+	background:url('../emoticons/2139.svg');
+}
+
+.tl-emo-2194{
+	background:url('../emoticons/2194.svg');
+}
+
+.tl-emo-2195{
+	background:url('../emoticons/2195.svg');
+}
+
+.tl-emo-2196{
+	background:url('../emoticons/2196.svg');
+}
+
+.tl-emo-2197{
+	background:url('../emoticons/2197.svg');
+}
+
+.tl-emo-2198{
+	background:url('../emoticons/2198.svg');
+}
+
+.tl-emo-2199{
+	background:url('../emoticons/2199.svg');
+}
+
+.tl-emo-21A9{
+	background:url('../emoticons/21A9.svg');
+}
+
+.tl-emo-21AA{
+	background:url('../emoticons/21AA.svg');
+}
+
+.tl-emo-23E9{
+	background:url('../emoticons/23E9.svg');
+}
+
+.tl-emo-23EA{
+	background:url('../emoticons/23EA.svg');
+}
+
+.tl-emo-23EB{
+	background:url('../emoticons/23EB.svg');
+}
+
+.tl-emo-23EC{
+	background:url('../emoticons/23EC.svg');
+}
+
+.tl-emo-24C2{
+	background:url('../emoticons/24C2.svg');
+}
+
+.tl-emo-25AA{
+	background:url('../emoticons/25AA.svg');
+}
+
+.tl-emo-25AB{
+	background:url('../emoticons/25AB.svg');
+}
+
+.tl-emo-25B6{
+	background:url('../emoticons/25B6.svg');
+}
+
+.tl-emo-25C0{
+	background:url('../emoticons/25C0.svg');
+}
+
+.tl-emo-25FB{
+	background:url('../emoticons/25FB.svg');
+}
+
+.tl-emo-25FC{
+	background:url('../emoticons/25FC.svg');
+}
+
+.tl-emo-25FD{
+	background:url('../emoticons/25FD.svg');
+}
+
+.tl-emo-25FE{
+	background:url('../emoticons/25FE.svg');
+}
+
+.tl-emo-2611{
+	background:url('../emoticons/2611.svg');
+}
+
+.tl-emo-2648{
+	background:url('../emoticons/2648.svg');
+}
+
+.tl-emo-2649{
+	background:url('../emoticons/2649.svg');
+}
+
+.tl-emo-264A{
+	background:url('../emoticons/264A.svg');
+}
+
+.tl-emo-264B{
+	background:url('../emoticons/264B.svg');
+}
+
+.tl-emo-264C{
+	background:url('../emoticons/264C.svg');
+}
+
+.tl-emo-264D{
+	background:url('../emoticons/264D.svg');
+}
+
+.tl-emo-264E{
+	background:url('../emoticons/264E.svg');
+}
+
+.tl-emo-264F{
+	background:url('../emoticons/264F.svg');
+}
+
+.tl-emo-2650{
+	background:url('../emoticons/2650.svg');
+}
+
+.tl-emo-2651{
+	background:url('../emoticons/2651.svg');
+}
+
+.tl-emo-2652{
+	background:url('../emoticons/2652.svg');
+}
+
+.tl-emo-2653{
+	background:url('../emoticons/2653.svg');
+}
+
+.tl-emo-2660{
+	background:url('../emoticons/2660.svg');
+}
+
+.tl-emo-2663{
+	background:url('../emoticons/2663.svg');
+}
+
+.tl-emo-2665{
+	background:url('../emoticons/2665.svg');
+}
+
+.tl-emo-2666{
+	background:url('../emoticons/2666.svg');
+}
+
+.tl-emo-2668{
+	background:url('../emoticons/2668.svg');
+}
+
+.tl-emo-267B{
+	background:url('../emoticons/267B.svg');
+}
+
+.tl-emo-267F{
+	background:url('../emoticons/267F.svg');
+}
+
+.tl-emo-2693{
+	background:url('../emoticons/2693.svg');
+}
+
+.tl-emo-26A0{
+	background:url('../emoticons/26A0.svg');
+}
+
+.tl-emo-26A1{
+	background:url('../emoticons/26A1.svg');
+}
+
+.tl-emo-26AA{
+	background:url('../emoticons/26AA.svg');
+}
+
+.tl-emo-26AB{
+	background:url('../emoticons/26AB.svg');
+}
+
+.tl-emo-26CE{
+	background:url('../emoticons/26CE.svg');
+}
+
+.tl-emo-26D4{
+	background:url('../emoticons/26D4.svg');
+}
+
+.tl-emo-26FD{
+	background:url('../emoticons/26FD.svg');
+}
+
+.tl-emo-2702{
+	background:url('../emoticons/2702.svg');
+}
+
+.tl-emo-2705{
+	background:url('../emoticons/2705.svg');
+}
+
+.tl-emo-2709{
+	background:url('../emoticons/2709.svg');
+}
+
+.tl-emo-2714{
+	background:url('../emoticons/2714.svg');
+}
+
+.tl-emo-2716{
+	background:url('../emoticons/2716.svg');
+}
+
+.tl-emo-2728{
+	background:url('../emoticons/2728.svg');
+}
+
+.tl-emo-2733{
+	background:url('../emoticons/2733.svg');
+}
+
+.tl-emo-2734{
+	background:url('../emoticons/2734.svg');
+}
+
+.tl-emo-2747{
+	background:url('../emoticons/2747.svg');
+}
+
+.tl-emo-274C{
+	background:url('../emoticons/274C.svg');
+}
+
+.tl-emo-274E{
+	background:url('../emoticons/274E.svg');
+}
+
+.tl-emo-2753{
+	background:url('../emoticons/2753.svg');
+}
+
+.tl-emo-2754{
+	background:url('../emoticons/2754.svg');
+}
+
+.tl-emo-2755{
+	background:url('../emoticons/2755.svg');
+}
+
+.tl-emo-2757{
+	background:url('../emoticons/2757.svg');
+}
+
+.tl-emo-2764{
+	background:url('../emoticons/2764.svg');
+}
+
+.tl-emo-2795{
+	background:url('../emoticons/2795.svg');
+}
+
+.tl-emo-2796{
+	background:url('../emoticons/2796.svg');
+}
+
+.tl-emo-2797{
+	background:url('../emoticons/2797.svg');
+}
+
+.tl-emo-27A1{
+	background:url('../emoticons/27A1.svg');
+}
+
+.tl-emo-27B0{
+	background:url('../emoticons/27B0.svg');
+}
+
+.tl-emo-27BF{
+	background:url('../emoticons/27BF.svg');
+}
+
+.tl-emo-2934{
+	background:url('../emoticons/2934.svg');
+}
+
+.tl-emo-2935{
+	background:url('../emoticons/2935.svg');
+}
+
+.tl-emo-2B05{
+	background:url('../emoticons/2B05.svg');
+}
+
+.tl-emo-2B06{
+	background:url('../emoticons/2B06.svg');
+}
+
+.tl-emo-2B07{
+	background:url('../emoticons/2B07.svg');
+}
+
+.tl-emo-2B1B{
+	background:url('../emoticons/2B1B.svg');
+}
+
+.tl-emo-2B1C{
+	background:url('../emoticons/2B1C.svg');
+}
+
+.tl-emo-2B50{
+	background:url('../emoticons/2B50.svg');
+}
+
+.tl-emo-2B55{
+	background:url('../emoticons/2B55.svg');
+}
+
+.tl-emo-3030{
+	background:url('../emoticons/3030.svg');
+}
+
+.tl-emo-303D{
+	background:url('../emoticons/303D.svg');
+}
+
+.tl-emo-3297{
+	background:url('../emoticons/3297.svg');
+}
+
+.tl-emo-3299{
+	background:url('../emoticons/3299.svg');
+}
+
+/*Spor ve Aktivite*/
+.tl-emo-1F0CF{
+	background:url('../emoticons/1F0CF.svg');
+}
+
+.tl-emo-1F39A{
+	background:url('../emoticons/1F39A.svg');
+}
+
+.tl-emo-1F39B{
+	background:url('../emoticons/1F39B.svg');
+}
+
+.tl-emo-1F39C{
+	background:url('../emoticons/1F39C.svg');
+}
+
+.tl-emo-1F39D{
+	background:url('../emoticons/1F39D.svg');
+}
+
+.tl-emo-1F3A0{
+	background:url('../emoticons/1F3A0.svg');
+}
+
+.tl-emo-1F3A1{
+	background:url('../emoticons/1F3A1.svg');
+}
+
+.tl-emo-1F3A2{
+	background:url('../emoticons/1F3A2.svg');
+}
+
+.tl-emo-1F3A3{
+	background:url('../emoticons/1F3A3.svg');
+}
+
+.tl-emo-1F3A4{
+	background:url('../emoticons/1F3A4.svg');
+}
+
+.tl-emo-1F3A5{
+	background:url('../emoticons/1F3A5.svg');
+}
+
+.tl-emo-1F3A7{
+	background:url('../emoticons/1F3A7.svg');
+}
+
+.tl-emo-1F3A8{
+	background:url('../emoticons/1F3A8.svg');
+}
+
+.tl-emo-1F3A9{
+	background:url('../emoticons/1F3A9.svg');
+}
+
+.tl-emo-1F3AA{
+	background:url('../emoticons/1F3AA.svg');
+}
+
+.tl-emo-1F3AC{
+	background:url('../emoticons/1F3AC.svg');
+}
+
+.tl-emo-1F3AD{
+	background:url('../emoticons/1F3AD.svg');
+}
+
+.tl-emo-1F3AE{
+	background:url('../emoticons/1F3AE.svg');
+}
+
+.tl-emo-1F3AF{
+	background:url('../emoticons/1F3AF.svg');
+}
+
+.tl-emo-1F3B0{
+	background:url('../emoticons/1F3B0.svg');
+}
+
+.tl-emo-1F3B1{
+	background:url('../emoticons/1F3B1.svg');
+}
+
+.tl-emo-1F3B2{
+	background:url('../emoticons/1F3B2.svg');
+}
+
+.tl-emo-1F3B3{
+	background:url('../emoticons/1F3B3.svg');
+}
+
+.tl-emo-1F3B4{
+	background:url('../emoticons/1F3B4.svg');
+}
+
+.tl-emo-1F3B5{
+	background:url('../emoticons/1F3B5.svg');
+}
+
+.tl-emo-1F3B6{
+	background:url('../emoticons/1F3B6.svg');
+}
+
+.tl-emo-1F3B7{
+	background:url('../emoticons/1F3B7.svg');
+}
+
+.tl-emo-1F3B8{
+	background:url('../emoticons/1F3B8.svg');
+}
+
+.tl-emo-1F3B9{
+	background:url('../emoticons/1F3B9.svg');
+}
+
+.tl-emo-1F3BA{
+	background:url('../emoticons/1F3BA.svg');
+}
+
+.tl-emo-1F3BB{
+	background:url('../emoticons/1F3BB.svg');
+}
+
+.tl-emo-1F3BC{
+	background:url('../emoticons/1F3BC.svg');
+}
+
+.tl-emo-1F3BE{
+	background:url('../emoticons/1F3BE.svg');
+}
+
+.tl-emo-1F3BF{
+	background:url('../emoticons/1F3BF.svg');
+}
+
+.tl-emo-1F3C0{
+	background:url('../emoticons/1F3C0.svg');
+}
+
+.tl-emo-1F3C1{
+	background:url('../emoticons/1F3C1.svg');
+}
+
+.tl-emo-1F3C2{
+	background:url('../emoticons/1F3C2.svg');
+}
+
+.tl-emo-1F3C3{
+	background:url('../emoticons/1F3C3.svg');
+}
+
+.tl-emo-1F3C4{
+	background:url('../emoticons/1F3C4.svg');
+}
+
+.tl-emo-1F3C5{
+	background:url('../emoticons/1F3C5.svg');
+}
+
+.tl-emo-1F3C6{
+	background:url('../emoticons/1F3C6.svg');
+}
+
+.tl-emo-1F3C7{
+	background:url('../emoticons/1F3C7.svg');
+}
+
+.tl-emo-1F3C8{
+	background:url('../emoticons/1F3C8.svg');
+}
+
+.tl-emo-1F3C9{
+	background:url('../emoticons/1F3C9.svg');
+}
+
+.tl-emo-1F3CA{
+	background:url('../emoticons/1F3CA.svg');
+}
+
+.tl-emo-1F3CB{
+	background:url('../emoticons/1F3CB.svg');
+}
+
+.tl-emo-1F3CC{
+	background:url('../emoticons/1F3CC.svg');
+}
+
+.tl-emo-1F3CD{
+	background:url('../emoticons/1F3CD.svg');
+}
+
+.tl-emo-1F3CE{
+	background:url('../emoticons/1F3CE.svg');
+}
+
+.tl-emo-1F4EF{
+	background:url('../emoticons/1F4EF.svg');
+}
+
+.tl-emo-1F50A{
+	background:url('../emoticons/1F50A.svg');
+}
+
+.tl-emo-1F579{
+	background:url('../emoticons/1F579.svg');
+}
+
+.tl-emo-1F6B4{
+	background:url('../emoticons/1F6B4.svg');
+}
+
+.tl-emo-1F6B5{
+	background:url('../emoticons/1F6B5.svg');
+}
+
+.tl-emo-1F6B6{
+	background:url('../emoticons/1F6B6.svg');
+}
+
+.tl-emo-26BD{
+	background:url('../emoticons/26BD.svg');
+}
+
+.tl-emo-26BE{
+	background:url('../emoticons/26BE.svg');
+}
+
+.tl-emo-26F3{
+	background:url('../emoticons/26F3.svg');
+}
+
+/*Seyahat*/
+.tl-emo-1F30B{
+	background:url('../emoticons/1F30B.svg');
+}
+
+.tl-emo-1F32B{
+	background:url('../emoticons/1F32B.svg');
+}
+
+.tl-emo-1F38A{
+	background:url('../emoticons/1F38A.svg');
+}
+
+.tl-emo-1F38C{
+	background:url('../emoticons/1F38C.svg');
+}
+
+.tl-emo-1F38F{
+	background:url('../emoticons/1F38F.svg');
+}
+
+.tl-emo-1F391{
+	background:url('../emoticons/1F391.svg');
+}
+
+.tl-emo-1F3D4{
+	background:url('../emoticons/1F3D4.svg');
+}
+
+.tl-emo-1F3D5{
+	background:url('../emoticons/1F3D5.svg');
+}
+
+.tl-emo-1F3D6{
+	background:url('../emoticons/1F3D6.svg');
+}
+
+.tl-emo-1F3D7{
+	background:url('../emoticons/1F3D7.svg');
+}
+
+.tl-emo-1F3D8{
+	background:url('../emoticons/1F3D8.svg');
+}
+
+.tl-emo-1F3D9{
+	background:url('../emoticons/1F3D9.svg');
+}
+
+.tl-emo-1F3DA{
+	background:url('../emoticons/1F3DA.svg');
+}
+
+.tl-emo-1F3DB{
+	background:url('../emoticons/1F3DB.svg');
+}
+
+.tl-emo-1F3DC{
+	background:url('../emoticons/1F3DC.svg');
+}
+
+.tl-emo-1F3DD{
+	background:url('../emoticons/1F3DD.svg');
+}
+
+.tl-emo-1F3DE{
+	background:url('../emoticons/1F3DE.svg');
+}
+
+.tl-emo-1F3DF{
+	background:url('../emoticons/1F3DF.svg');
+}
+
+.tl-emo-1F3E0{
+	background:url('../emoticons/1F3E0.svg');
+}
+
+.tl-emo-1F3E1{
+	background:url('../emoticons/1F3E1.svg');
+}
+
+.tl-emo-1F3E2{
+	background:url('../emoticons/1F3E2.svg');
+}
+
+.tl-emo-1F3E3{
+	background:url('../emoticons/1F3E3.svg');
+}
+
+.tl-emo-1F3E4{
+	background:url('../emoticons/1F3E4.svg');
+}
+
+.tl-emo-1F3E5{
+	background:url('../emoticons/1F3E5.svg');
+}
+
+.tl-emo-1F3E6{
+	background:url('../emoticons/1F3E6.svg');
+}
+
+.tl-emo-1F3E7{
+	background:url('../emoticons/1F3E7.svg');
+}
+
+.tl-emo-1F3E8{
+	background:url('../emoticons/1F3E8.svg');
+}
+
+.tl-emo-1F3E9{
+	background:url('../emoticons/1F3E9.svg');
+}
+
+.tl-emo-1F3EA{
+	background:url('../emoticons/1F3EA.svg');
+}
+
+.tl-emo-1F3EB{
+	background:url('../emoticons/1F3EB.svg');
+}
+
+.tl-emo-1F3EC{
+	background:url('../emoticons/1F3EC.svg');
+}
+
+.tl-emo-1F3ED{
+	background:url('../emoticons/1F3ED.svg');
+}
+
+.tl-emo-1F3EF{
+	background:url('../emoticons/1F3EF.svg');
+}
+
+.tl-emo-1F3F0{
+	background:url('../emoticons/1F3F0.svg');
+}
+
+.tl-emo-1F5D9{
+	background:url('../emoticons/1F5D9.svg');
+}
+
+.tl-emo-1F5FA{
+	background:url('../emoticons/1F5FA.svg');
+}
+
+.tl-emo-1F5FB{
+	background:url('../emoticons/1F5FB.svg');
+}
+
+.tl-emo-1F5FC{
+	background:url('../emoticons/1F5FC.svg');
+}
+
+.tl-emo-1F5FD{
+	background:url('../emoticons/1F5FD.svg');
+}
+
+.tl-emo-1F5FE{
+	background:url('../emoticons/1F5FE.svg');
+}
+
+.tl-emo-1F5FF{
+	background:url('../emoticons/1F5FF.svg');
+}
+
+.tl-emo-1F680{
+	background:url('../emoticons/1F680.svg');
+}
+
+.tl-emo-1F681{
+	background:url('../emoticons/1F681.svg');
+}
+
+.tl-emo-1F682{
+	background:url('../emoticons/1F682.svg');
+}
+
+.tl-emo-1F683{
+	background:url('../emoticons/1F683.svg');
+}
+
+.tl-emo-1F684{
+	background:url('../emoticons/1F684.svg');
+}
+
+.tl-emo-1F685{
+	background:url('../emoticons/1F685.svg');
+}
+
+.tl-emo-1F686{
+	background:url('../emoticons/1F686.svg');
+}
+
+.tl-emo-1F687{
+	background:url('../emoticons/1F687.svg');
+}
+
+.tl-emo-1F688{
+	background:url('../emoticons/1F688.svg');
+}
+
+.tl-emo-1F689{
+	background:url('../emoticons/1F689.svg');
+}
+
+.tl-emo-1F68A{
+	background:url('../emoticons/1F68A.svg');
+}
+
+.tl-emo-1F68B{
+	background:url('../emoticons/1F68B.svg');
+}
+
+.tl-emo-1F68C{
+	background:url('../emoticons/1F68C.svg');
+}
+
+.tl-emo-1F68D{
+	background:url('../emoticons/1F68D.svg');
+}
+
+.tl-emo-1F68E{
+	background:url('../emoticons/1F68E.svg');
+}
+
+.tl-emo-1F68F{
+	background:url('../emoticons/1F68F.svg');
+}
+
+.tl-emo-1F690{
+	background:url('../emoticons/1F690.svg');
+}
+
+.tl-emo-1F691{
+	background:url('../emoticons/1F691.svg');
+}
+
+.tl-emo-1F692{
+	background:url('../emoticons/1F692.svg');
+}
+
+.tl-emo-1F693{
+	background:url('../emoticons/1F693.svg');
+}
+
+.tl-emo-1F694{
+	background:url('../emoticons/1F694.svg');
+}
+
+.tl-emo-1F695{
+	background:url('../emoticons/1F695.svg');
+}
+
+.tl-emo-1F696{
+	background:url('../emoticons/1F696.svg');
+}
+
+.tl-emo-1F697{
+	background:url('../emoticons/1F697.svg');
+}
+
+.tl-emo-1F698{
+	background:url('../emoticons/1F698.svg');
+}
+
+.tl-emo-1F699{
+	background:url('../emoticons/1F699.svg');
+}
+
+.tl-emo-1F69A{
+	background:url('../emoticons/1F69A.svg');
+}
+
+.tl-emo-1F69B{
+	background:url('../emoticons/1F69B.svg');
+}
+
+.tl-emo-1F69C{
+	background:url('../emoticons/1F69C.svg');
+}
+
+.tl-emo-1F69D{
+	background:url('../emoticons/1F69D.svg');
+}
+
+.tl-emo-1F69E{
+	background:url('../emoticons/1F69E.svg');
+}
+
+.tl-emo-1F69F{
+	background:url('../emoticons/1F69F.svg');
+}
+
+.tl-emo-1F6A0{
+	background:url('../emoticons/1F6A0.svg');
+}
+
+.tl-emo-1F6A1{
+	background:url('../emoticons/1F6A1.svg');
+}
+
+.tl-emo-1F6A2{
+	background:url('../emoticons/1F6A2.svg');
+}
+
+.tl-emo-1F6A3{
+	background:url('../emoticons/1F6A3.svg');
+}
+
+.tl-emo-1F6A4{
+	background:url('../emoticons/1F6A4.svg');
+}
+
+.tl-emo-1F6A5{
+	background:url('../emoticons/1F6A5.svg');
+}
+
+.tl-emo-1F6A6{
+	background:url('../emoticons/1F6A6.svg');
+}
+
+.tl-emo-1F6A7{
+	background:url('../emoticons/1F6A7.svg');
+}
+
+.tl-emo-1F6AA{
+	background:url('../emoticons/1F6AA.svg');
+}
+
+.tl-emo-1F6B2{
+	background:url('../emoticons/1F6B2.svg');
+}
+
+.tl-emo-1F6E3{
+	background:url('../emoticons/1F6E3.svg');
+}
+
+.tl-emo-1F6E4{
+	background:url('../emoticons/1F6E4.svg');
+}
+
+.tl-emo-1F6E5{
+	background:url('../emoticons/1F6E5.svg');
+}
+
+.tl-emo-1F6E6{
+	background:url('../emoticons/1F6E6.svg');
+}
+
+.tl-emo-1F6E7{
+	background:url('../emoticons/1F6E7.svg');
+}
+
+.tl-emo-1F6E8{
+	background:url('../emoticons/1F6E8.svg');
+}
+
+.tl-emo-1F6E9{
+	background:url('../emoticons/1F6E9.svg');
+}
+
+.tl-emo-1F6EA{
+	background:url('../emoticons/1F6EA.svg');
+}
+
+.tl-emo-1F6EB{
+	background:url('../emoticons/1F6EB.svg');
+}
+
+.tl-emo-1F6EC{
+	background:url('../emoticons/1F6EC.svg');
+}
+
+.tl-emo-1F6F0{
+	background:url('../emoticons/1F6F0.svg');
+}
+
+.tl-emo-1F6F1{
+	background:url('../emoticons/1F6F1.svg');
+}
+
+.tl-emo-1F6F2{
+	background:url('../emoticons/1F6F2.svg');
+}
+
+.tl-emo-1F6F3{
+	background:url('../emoticons/1F6F3.svg');
+}
+
+.tl-emo-26EA{
+	background:url('../emoticons/26EA.svg');
+}
+
+.tl-emo-26F2{
+	background:url('../emoticons/26F2.svg');
+}
+
+.tl-emo-26F5{
+	background:url('../emoticons/26F5.svg');
+}
+
+.tl-emo-26FA{
+	background:url('../emoticons/26FA.svg');
+}
+
+.tl-emo-2708{
+	background:url('../emoticons/2708.svg');
+}
+
+/*Nesne*/
+.tl-emo-1F398{
+	background:url('../emoticons/1F398.svg');
+}
+
+.tl-emo-1F399{
+	background:url('../emoticons/1F399.svg');
+}
+
+.tl-emo-1F39E{
+	background:url('../emoticons/1F39E.svg');
+}
+
+.tl-emo-1F39F{
+	background:url('../emoticons/1F39F.svg');
+}
+
+.tl-emo-1F3BD{
+	background:url('../emoticons/1F3BD.svg');
+}
+
+.tl-emo-1F3EE{
+	background:url('../emoticons/1F3EE.svg');
+}
+
+.tl-emo-1F3F1{
+	background:url('../emoticons/1F3F1.svg');
+}
+
+.tl-emo-1F3F2{
+	background:url('../emoticons/1F3F2.svg');
+}
+
+.tl-emo-1F3F3{
+	background:url('../emoticons/1F3F3.svg');
+}
+
+.tl-emo-1F3F4{
+	background:url('../emoticons/1F3F4.svg');
+}
+
+.tl-emo-1F45D{
+	background:url('../emoticons/1F45D.svg');
+}
+
+.tl-emo-1F48A{
+	background:url('../emoticons/1F48A.svg');
+}
+
+.tl-emo-1F4A1{
+	background:url('../emoticons/1F4A1.svg');
+}
+
+.tl-emo-1F4B0{
+	background:url('../emoticons/1F4B0.svg');
+}
+
+.tl-emo-1F4B3{
+	background:url('../emoticons/1F4B3.svg');
+}
+
+.tl-emo-1F4B4{
+	background:url('../emoticons/1F4B4.svg');
+}
+
+.tl-emo-1F4B5{
+	background:url('../emoticons/1F4B5.svg');
+}
+
+.tl-emo-1F4B6{
+	background:url('../emoticons/1F4B6.svg');
+}
+
+.tl-emo-1F4B7{
+	background:url('../emoticons/1F4B7.svg');
+}
+
+.tl-emo-1F4B8{
+	background:url('../emoticons/1F4B8.svg');
+}
+
+.tl-emo-1F4BA{
+	background:url('../emoticons/1F4BA.svg');
+}
+
+.tl-emo-1F4BB{
+	background:url('../emoticons/1F4BB.svg');
+}
+
+.tl-emo-1F4BC{
+	background:url('../emoticons/1F4BC.svg');
+}
+
+.tl-emo-1F4BD{
+	background:url('../emoticons/1F4BD.svg');
+}
+
+.tl-emo-1F4BE{
+	background:url('../emoticons/1F4BE.svg');
+}
+
+.tl-emo-1F4BF{
+	background:url('../emoticons/1F4BF.svg');
+}
+
+.tl-emo-1F4C0{
+	background:url('../emoticons/1F4C0.svg');
+}
+
+.tl-emo-1F4C1{
+	background:url('../emoticons/1F4C1.svg');
+}
+
+.tl-emo-1F4C2{
+	background:url('../emoticons/1F4C2.svg');
+}
+
+.tl-emo-1F4C3{
+	background:url('../emoticons/1F4C3.svg');
+}
+
+.tl-emo-1F4C4{
+	background:url('../emoticons/1F4C4.svg');
+}
+
+.tl-emo-1F4C5{
+	background:url('../emoticons/1F4C5.svg');
+}
+
+.tl-emo-1F4C6{
+	background:url('../emoticons/1F4C6.svg');
+}
+
+.tl-emo-1F4CB{
+	background:url('../emoticons/1F4CB.svg');
+}
+
+.tl-emo-1F4CC{
+	background:url('../emoticons/1F4CC.svg');
+}
+
+.tl-emo-1F4CD{
+	background:url('../emoticons/1F4CD.svg');
+}
+
+.tl-emo-1F4CE{
+	background:url('../emoticons/1F4CE.svg');
+}
+
+.tl-emo-1F4CF{
+	background:url('../emoticons/1F4CF.svg');
+}
+
+.tl-emo-1F4D0{
+	background:url('../emoticons/1F4D0.svg');
+}
+
+.tl-emo-1F4D1{
+	background:url('../emoticons/1F4D1.svg');
+}
+
+.tl-emo-1F4D2{
+	background:url('../emoticons/1F4D2.svg');
+}
+
+.tl-emo-1F4D3{
+	background:url('../emoticons/1F4D3.svg');
+}
+
+.tl-emo-1F4D4{
+	background:url('../emoticons/1F4D4.svg');
+}
+
+.tl-emo-1F4D5{
+	background:url('../emoticons/1F4D5.svg');
+}
+
+.tl-emo-1F4D6{
+	background:url('../emoticons/1F4D6.svg');
+}
+
+.tl-emo-1F4D7{
+	background:url('../emoticons/1F4D7.svg');
+}
+
+.tl-emo-1F4D8{
+	background:url('../emoticons/1F4D8.svg');
+}
+
+.tl-emo-1F4D9{
+	background:url('../emoticons/1F4D9.svg');
+}
+
+.tl-emo-1F4DA{
+	background:url('../emoticons/1F4DA.svg');
+}
+
+.tl-emo-1F4DC{
+	background:url('../emoticons/1F4DC.svg');
+}
+
+.tl-emo-1F4DD{
+	background:url('../emoticons/1F4DD.svg');
+}
+
+.tl-emo-1F4DE{
+	background:url('../emoticons/1F4DE.svg');
+}
+
+.tl-emo-1F4DF{
+	background:url('../emoticons/1F4DF.svg');
+}
+
+.tl-emo-1F4E1{
+	background:url('../emoticons/1F4E1.svg');
+}
+
+.tl-emo-1F4E2{
+	background:url('../emoticons/1F4E2.svg');
+}
+
+.tl-emo-1F4E3{
+	background:url('../emoticons/1F4E3.svg');
+}
+
+.tl-emo-1F4E6{
+	background:url('../emoticons/1F4E6.svg');
+}
+
+.tl-emo-1F4EA{
+	background:url('../emoticons/1F4EA.svg');
+}
+
+.tl-emo-1F4EB{
+	background:url('../emoticons/1F4EB.svg');
+}
+
+.tl-emo-1F4EC{
+	background:url('../emoticons/1F4EC.svg');
+}
+
+.tl-emo-1F4ED{
+	background:url('../emoticons/1F4ED.svg');
+}
+
+.tl-emo-1F4EE{
+	background:url('../emoticons/1F4EE.svg');
+}
+
+.tl-emo-1F4F0{
+	background:url('../emoticons/1F4F0.svg');
+}
+
+.tl-emo-1F4F1{
+	background:url('../emoticons/1F4F1.svg');
+}
+
+.tl-emo-1F4F2{
+	background:url('../emoticons/1F4F2.svg');
+}
+
+.tl-emo-1F4F7{
+	background:url('../emoticons/1F4F7.svg');
+}
+
+.tl-emo-1F4F8{
+	background:url('../emoticons/1F4F8.svg');
+}
+
+.tl-emo-1F4F9{
+	background:url('../emoticons/1F4F9.svg');
+}
+
+.tl-emo-1F4FA{
+	background:url('../emoticons/1F4FA.svg');
+}
+
+.tl-emo-1F4FB{
+	background:url('../emoticons/1F4FB.svg');
+}
+
+.tl-emo-1F4FC{
+	background:url('../emoticons/1F4FC.svg');
+}
+
+.tl-emo-1F4FD{
+	background:url('../emoticons/1F4FD.svg');
+}
+
+.tl-emo-1F4FE{
+	background:url('../emoticons/1F4FE.svg');
+}
+
+.tl-emo-1F507{
+	background:url('../emoticons/1F507.svg');
+}
+
+.tl-emo-1F508{
+	background:url('../emoticons/1F508.svg');
+}
+
+.tl-emo-1F509{
+	background:url('../emoticons/1F509.svg');
+}
+
+.tl-emo-1F50B{
+	background:url('../emoticons/1F50B.svg');
+}
+
+.tl-emo-1F50C{
+	background:url('../emoticons/1F50C.svg');
+}
+
+.tl-emo-1F50D{
+	background:url('../emoticons/1F50D.svg');
+}
+
+.tl-emo-1F50E{
+	background:url('../emoticons/1F50E.svg');
+}
+
+.tl-emo-1F510{
+	background:url('../emoticons/1F510.svg');
+}
+
+.tl-emo-1F511{
+	background:url('../emoticons/1F511.svg');
+}
+
+.tl-emo-1F512{
+	background:url('../emoticons/1F512.svg');
+}
+
+.tl-emo-1F513{
+	background:url('../emoticons/1F513.svg');
+}
+
+.tl-emo-1F514{
+	background:url('../emoticons/1F514.svg');
+}
+
+.tl-emo-1F515{
+	background:url('../emoticons/1F515.svg');
+}
+
+.tl-emo-1F517{
+	background:url('../emoticons/1F517.svg');
+}
+
+.tl-emo-1F526{
+	background:url('../emoticons/1F526.svg');
+}
+
+.tl-emo-1F527{
+	background:url('../emoticons/1F527.svg');
+}
+
+.tl-emo-1F528{
+	background:url('../emoticons/1F528.svg');
+}
+
+.tl-emo-1F529{
+	background:url('../emoticons/1F529.svg');
+}
+
+.tl-emo-1F52A{
+	background:url('../emoticons/1F52A.svg');
+}
+
+.tl-emo-1F52B{
+	background:url('../emoticons/1F52B.svg');
+}
+
+.tl-emo-1F52C{
+	background:url('../emoticons/1F52C.svg');
+}
+
+.tl-emo-1F52D{
+	background:url('../emoticons/1F52D.svg');
+}
+
+.tl-emo-1F52E{
+	background:url('../emoticons/1F52E.svg');
+}
+
+.tl-emo-1F531{
+	background:url('../emoticons/1F531.svg');
+}
+
+.tl-emo-1F568{
+	background:url('../emoticons/1F568.svg');
+}
+
+.tl-emo-1F569{
+	background:url('../emoticons/1F569.svg');
+}
+
+.tl-emo-1F56A{
+	background:url('../emoticons/1F56A.svg');
+}
+
+.tl-emo-1F56B{
+	background:url('../emoticons/1F56B.svg');
+}
+
+.tl-emo-1F56C{
+	background:url('../emoticons/1F56C.svg');
+}
+
+.tl-emo-1F56D{
+	background:url('../emoticons/1F56D.svg');
+}
+
+.tl-emo-1F56E{
+	background:url('../emoticons/1F56E.svg');
+}
+
+.tl-emo-1F56F{
+	background:url('../emoticons/1F56F.svg');
+}
+
+.tl-emo-1F570{
+	background:url('../emoticons/1F570.svg');
+}
+
+.tl-emo-1F576{
+	background:url('../emoticons/1F576.svg');
+}
+
+.tl-emo-1F581{
+	background:url('../emoticons/1F581.svg');
+}
+
+.tl-emo-1F582{
+	background:url('../emoticons/1F582.svg');
+}
+
+.tl-emo-1F583{
+	background:url('../emoticons/1F583.svg');
+}
+
+.tl-emo-1F585{
+	background:url('../emoticons/1F585.svg');
+}
+
+.tl-emo-1F586{
+	background:url('../emoticons/1F586.svg');
+}
+
+.tl-emo-1F587{
+	background:url('../emoticons/1F587.svg');
+}
+
+.tl-emo-1F588{
+	background:url('../emoticons/1F588.svg');
+}
+
+.tl-emo-1F589{
+	background:url('../emoticons/1F589.svg');
+}
+
+.tl-emo-1F58A{
+	background:url('../emoticons/1F58A.svg');
+}
+
+.tl-emo-1F58B{
+	background:url('../emoticons/1F58B.svg');
+}
+
+.tl-emo-1F58C{
+	background:url('../emoticons/1F58C.svg');
+}
+
+.tl-emo-1F58D{
+	background:url('../emoticons/1F58D.svg');
+}
+
+.tl-emo-1F5A5{
+	background:url('../emoticons/1F5A5.svg');
+}
+
+.tl-emo-1F5A6{
+	background:url('../emoticons/1F5A6.svg');
+}
+
+.tl-emo-1F5A7{
+	background:url('../emoticons/1F5A7.svg');
+}
+
+.tl-emo-1F5A8{
+	background:url('../emoticons/1F5A8.svg');
+}
+
+.tl-emo-1F5A9{
+	background:url('../emoticons/1F5A9.svg');
+}
+
+.tl-emo-1F5AA{
+	background:url('../emoticons/1F5AA.svg');
+}
+
+.tl-emo-1F5AB{
+	background:url('../emoticons/1F5AB.svg');
+}
+
+.tl-emo-1F5AD{
+	background:url('../emoticons/1F5AD.svg');
+}
+
+.tl-emo-1F5AE{
+	background:url('../emoticons/1F5AE.svg');
+}
+
+.tl-emo-1F5AF{
+	background:url('../emoticons/1F5AF.svg');
+}
+
+.tl-emo-1F5B2{
+	background:url('../emoticons/1F5B2.svg');
+}
+
+.tl-emo-1F5B3{
+	background:url('../emoticons/1F5B3.svg');
+}
+
+.tl-emo-1F5B4{
+	background:url('../emoticons/1F5B4.svg');
+}
+
+.tl-emo-1F5B8{
+	background:url('../emoticons/1F5B8.svg');
+}
+
+.tl-emo-1F5B9{
+	background:url('../emoticons/1F5B9.svg');
+}
+
+.tl-emo-1F5BC{
+	background:url('../emoticons/1F5BC.svg');
+}
+
+.tl-emo-1F5BD{
+	background:url('../emoticons/1F5BD.svg');
+}
+
+.tl-emo-1F5BE{
+	background:url('../emoticons/1F5BE.svg');
+}
+
+.tl-emo-1F5C0{
+	background:url('../emoticons/1F5C0.svg');
+}
+
+.tl-emo-1F5C1{
+	background:url('../emoticons/1F5C1.svg');
+}
+
+.tl-emo-1F5C2{
+	background:url('../emoticons/1F5C2.svg');
+}
+
+.tl-emo-1F5C3{
+	background:url('../emoticons/1F5C3.svg');
+}
+
+.tl-emo-1F5C4{
+	background:url('../emoticons/1F5C4.svg');
+}
+
+.tl-emo-1F5C6{
+	background:url('../emoticons/1F5C6.svg');
+}
+
+.tl-emo-1F5C7{
+	background:url('../emoticons/1F5C7.svg');
+}
+
+.tl-emo-1F5C9{
+	background:url('../emoticons/1F5C9.svg');
+}
+
+.tl-emo-1F5CA{
+	background:url('../emoticons/1F5CA.svg');
+}
+
+.tl-emo-1F5CE{
+	background:url('../emoticons/1F5CE.svg');
+}
+
+.tl-emo-1F5CF{
+	background:url('../emoticons/1F5CF.svg');
+}
+
+.tl-emo-1F5D0{
+	background:url('../emoticons/1F5D0.svg');
+}
+
+.tl-emo-1F5D1{
+	background:url('../emoticons/1F5D1.svg');
+}
+
+.tl-emo-1F5D2{
+	background:url('../emoticons/1F5D2.svg');
+}
+
+.tl-emo-1F5D3{
+	background:url('../emoticons/1F5D3.svg');
+}
+
+.tl-emo-1F5D4{
+	background:url('../emoticons/1F5D4.svg');
+}
+
+.tl-emo-1F5DC{
+	background:url('../emoticons/1F5DC.svg');
+}
+
+.tl-emo-1F5DD{
+	background:url('../emoticons/1F5DD.svg');
+}
+
+.tl-emo-1F5DE{
+	background:url('../emoticons/1F5DE.svg');
+}
+
+.tl-emo-1F5E1{
+	background:url('../emoticons/1F5E1.svg');
+}
+
+.tl-emo-1F6A8{
+	background:url('../emoticons/1F6A8.svg');
+}
+
+.tl-emo-1F6AC{
+	background:url('../emoticons/1F6AC.svg');
+}
+
+.tl-emo-1F6BD{
+	background:url('../emoticons/1F6BD.svg');
+}
+
+.tl-emo-1F6BF{
+	background:url('../emoticons/1F6BF.svg');
+}
+
+.tl-emo-1F6C0{
+	background:url('../emoticons/1F6C0.svg');
+}
+
+.tl-emo-1F6C1{
+	background:url('../emoticons/1F6C1.svg');
+}
+
+.tl-emo-1F6CB{
+	background:url('../emoticons/1F6CB.svg');
+}
+
+.tl-emo-1F6CD{
+	background:url('../emoticons/1F6CD.svg');
+}
+
+.tl-emo-1F6CE{
+	background:url('../emoticons/1F6CE.svg');
+}
+
+.tl-emo-1F6CF{
+	background:url('../emoticons/1F6CF.svg');
+}
+
+.tl-emo-1F6E0{
+	background:url('../emoticons/1F6E0.svg');
+}
+
+.tl-emo-1F6E2{
+	background:url('../emoticons/1F6E2.svg');
+}
+
+.tl-emo-231A{
+	background:url('../emoticons/231A.svg');
+}
+
+.tl-emo-231B{
+	background:url('../emoticons/231B.svg');
+}
+
+.tl-emo-23F0{
+	background:url('../emoticons/23F0.svg');
+}
+
+.tl-emo-23F3{
+	background:url('../emoticons/23F3.svg');
+}
+
+.tl-emo-260E{
+	background:url('../emoticons/260E.svg');
+}
+
+.tl-emo-270F{
+	background:url('../emoticons/270F.svg');
+}
+
+.tl-emo-2712{
+	background:url('../emoticons/2712.svg');
+}
+
+/*Bayraklar*/
+.tl-emo-1F1E6-1F1E8{
+	background:url('../emoticons/1F1E6-1F1E8.svg');
+}
+
+.tl-emo-1F1E6-1F1E9{
+	background:url('../emoticons/1F1E6-1F1E9.svg');
+}
+
+.tl-emo-1F1E6-1F1EA{
+	background:url('../emoticons/1F1E6-1F1EA.svg');
+}
+
+.tl-emo-1F1E6-1F1EB{
+	background:url('../emoticons/1F1E6-1F1EB.svg');
+}
+
+.tl-emo-1F1E6-1F1EC{
+	background:url('../emoticons/1F1E6-1F1EC.svg');
+}
+
+.tl-emo-1F1E6-1F1EE{
+	background:url('../emoticons/1F1E6-1F1EE.svg');
+}
+
+.tl-emo-1F1E6-1F1F1{
+	background:url('../emoticons/1F1E6-1F1F1.svg');
+}
+
+.tl-emo-1F1E6-1F1F2{
+	background:url('../emoticons/1F1E6-1F1F2.svg');
+}
+
+.tl-emo-1F1E6-1F1F4{
+	background:url('../emoticons/1F1E6-1F1F4.svg');
+}
+
+.tl-emo-1F1E6-1F1F7{
+	background:url('../emoticons/1F1E6-1F1F7.svg');
+}
+
+.tl-emo-1F1E6-1F1F9{
+	background:url('../emoticons/1F1E6-1F1F9.svg');
+}
+
+.tl-emo-1F1E6-1F1FA{
+	background:url('../emoticons/1F1E6-1F1FA.svg');
+}
+
+.tl-emo-1F1E6-1F1FC{
+	background:url('../emoticons/1F1E6-1F1FC.svg');
+}
+
+.tl-emo-1F1E6-1F1FF{
+	background:url('../emoticons/1F1E6-1F1FF.svg');
+}
+
+.tl-emo-1F1E7-1F1E6{
+	background:url('../emoticons/1F1E7-1F1E6.svg');
+}
+
+.tl-emo-1F1E7-1F1E7{
+	background:url('../emoticons/1F1E7-1F1E7.svg');
+}
+
+.tl-emo-1F1E7-1F1E9{
+	background:url('../emoticons/1F1E7-1F1E9.svg');
+}
+
+.tl-emo-1F1E7-1F1EA{
+	background:url('../emoticons/1F1E7-1F1EA.svg');
+}
+
+.tl-emo-1F1E7-1F1EB{
+	background:url('../emoticons/1F1E7-1F1EB.svg');
+}
+
+.tl-emo-1F1E7-1F1EC{
+	background:url('../emoticons/1F1E7-1F1EC.svg');
+}
+
+.tl-emo-1F1E7-1F1ED{
+	background:url('../emoticons/1F1E7-1F1ED.svg');
+}
+
+.tl-emo-1F1E7-1F1EE{
+	background:url('../emoticons/1F1E7-1F1EE.svg');
+}
+
+.tl-emo-1F1E7-1F1EF{
+	background:url('../emoticons/1F1E7-1F1EF.svg');
+}
+
+.tl-emo-1F1E7-1F1F2{
+	background:url('../emoticons/1F1E7-1F1F2.svg');
+}
+
+.tl-emo-1F1E7-1F1F3{
+	background:url('../emoticons/1F1E7-1F1F3.svg');
+}
+
+.tl-emo-1F1E7-1F1F4{
+	background:url('../emoticons/1F1E7-1F1F4.svg');
+}
+
+.tl-emo-1F1E7-1F1F7{
+	background:url('../emoticons/1F1E7-1F1F7.svg');
+}
+
+.tl-emo-1F1E7-1F1F8{
+	background:url('../emoticons/1F1E7-1F1F8.svg');
+}
+
+.tl-emo-1F1E7-1F1F9{
+	background:url('../emoticons/1F1E7-1F1F9.svg');
+}
+
+.tl-emo-1F1E7-1F1FC{
+	background:url('../emoticons/1F1E7-1F1FC.svg');
+}
+
+.tl-emo-1F1E7-1F1FE{
+	background:url('../emoticons/1F1E7-1F1FE.svg');
+}
+
+.tl-emo-1F1E7-1F1FF{
+	background:url('../emoticons/1F1E7-1F1FF.svg');
+}
+
+.tl-emo-1F1E8-1F1E6{
+	background:url('../emoticons/1F1E8-1F1E6.svg');
+}
+
+.tl-emo-1F1E8-1F1E9{
+	background:url('../emoticons/1F1E8-1F1E9.svg');
+}
+
+.tl-emo-1F1E8-1F1EB{
+	background:url('../emoticons/1F1E8-1F1EB.svg');
+}
+
+.tl-emo-1F1E8-1F1EC{
+	background:url('../emoticons/1F1E8-1F1EC.svg');
+}
+
+.tl-emo-1F1E8-1F1ED{
+	background:url('../emoticons/1F1E8-1F1ED.svg');
+}
+
+.tl-emo-1F1E8-1F1EE{
+	background:url('../emoticons/1F1E8-1F1EE.svg');
+}
+
+.tl-emo-1F1E8-1F1F1{
+	background:url('../emoticons/1F1E8-1F1F1.svg');
+}
+
+.tl-emo-1F1E8-1F1F2{
+	background:url('../emoticons/1F1E8-1F1F2.svg');
+}
+
+.tl-emo-1F1E8-1F1F3{
+	background:url('../emoticons/1F1E8-1F1F3.svg');
+}
+
+.tl-emo-1F1E8-1F1F4{
+	background:url('../emoticons/1F1E8-1F1F4.svg');
+}
+
+.tl-emo-1F1E8-1F1F7{
+	background:url('../emoticons/1F1E8-1F1F7.svg');
+}
+
+.tl-emo-1F1E8-1F1FA{
+	background:url('../emoticons/1F1E8-1F1FA.svg');
+}
+
+.tl-emo-1F1E8-1F1FB{
+	background:url('../emoticons/1F1E8-1F1FB.svg');
+}
+
+.tl-emo-1F1E8-1F1FE{
+	background:url('../emoticons/1F1E8-1F1FE.svg');
+}
+
+.tl-emo-1F1E8-1F1FF{
+	background:url('../emoticons/1F1E8-1F1FF.svg');
+}
+
+.tl-emo-1F1E9-1F1EA{
+	background:url('../emoticons/1F1E9-1F1EA.svg');
+}
+
+.tl-emo-1F1E9-1F1EF{
+	background:url('../emoticons/1F1E9-1F1EF.svg');
+}
+
+.tl-emo-1F1E9-1F1F0{
+	background:url('../emoticons/1F1E9-1F1F0.svg');
+}
+
+.tl-emo-1F1E9-1F1F2{
+	background:url('../emoticons/1F1E9-1F1F2.svg');
+}
+
+.tl-emo-1F1E9-1F1F4{
+	background:url('../emoticons/1F1E9-1F1F4.svg');
+}
+
+.tl-emo-1F1E9-1F1FF{
+	background:url('../emoticons/1F1E9-1F1FF.svg');
+}
+
+.tl-emo-1F1EA-1F1E8{
+	background:url('../emoticons/1F1EA-1F1E8.svg');
+}
+
+.tl-emo-1F1EA-1F1EA{
+	background:url('../emoticons/1F1EA-1F1EA.svg');
+}
+
+.tl-emo-1F1EA-1F1EC{
+	background:url('../emoticons/1F1EA-1F1EC.svg');
+}
+
+.tl-emo-1F1EA-1F1ED{
+	background:url('../emoticons/1F1EA-1F1ED.svg');
+}
+
+.tl-emo-1F1EA-1F1F7{
+	background:url('../emoticons/1F1EA-1F1F7.svg');
+}
+
+.tl-emo-1F1EA-1F1F8{
+	background:url('../emoticons/1F1EA-1F1F8.svg');
+}
+
+.tl-emo-1F1EA-1F1F9{
+	background:url('../emoticons/1F1EA-1F1F9.svg');
+}
+
+.tl-emo-1F1EB-1F1EE{
+	background:url('../emoticons/1F1EB-1F1EE.svg');
+}
+
+.tl-emo-1F1EB-1F1EF{
+	background:url('../emoticons/1F1EB-1F1EF.svg');
+}
+
+.tl-emo-1F1EB-1F1F0{
+	background:url('../emoticons/1F1EB-1F1F0.svg');
+}
+
+.tl-emo-1F1EB-1F1F2{
+	background:url('../emoticons/1F1EB-1F1F2.svg');
+}
+
+.tl-emo-1F1EB-1F1F4{
+	background:url('../emoticons/1F1EB-1F1F4.svg');
+}
+
+.tl-emo-1F1EB-1F1F7{
+	background:url('../emoticons/1F1EB-1F1F7.svg');
+}
+
+.tl-emo-1F1EC-1F1E6{
+	background:url('../emoticons/1F1EC-1F1E6.svg');
+}
+
+.tl-emo-1F1EC-1F1E7{
+	background:url('../emoticons/1F1EC-1F1E7.svg');
+}
+
+.tl-emo-1F1EC-1F1E9{
+	background:url('../emoticons/1F1EC-1F1E9.svg');
+}
+
+.tl-emo-1F1EC-1F1EA{
+	background:url('../emoticons/1F1EC-1F1EA.svg');
+}
+
+.tl-emo-1F1EC-1F1ED{
+	background:url('../emoticons/1F1EC-1F1ED.svg');
+}
+
+.tl-emo-1F1EC-1F1EE{
+	background:url('../emoticons/1F1EC-1F1EE.svg');
+}
+
+.tl-emo-1F1EC-1F1F1{
+	background:url('../emoticons/1F1EC-1F1F1.svg');
+}
+
+.tl-emo-1F1EC-1F1F2{
+	background:url('../emoticons/1F1EC-1F1F2.svg');
+}
+
+.tl-emo-1F1EC-1F1F3{
+	background:url('../emoticons/1F1EC-1F1F3.svg');
+}
+
+.tl-emo-1F1EC-1F1F6{
+	background:url('../emoticons/1F1EC-1F1F6.svg');
+}
+
+.tl-emo-1F1EC-1F1F7{
+	background:url('../emoticons/1F1EC-1F1F7.svg');
+}
+
+.tl-emo-1F1EC-1F1F9{
+	background:url('../emoticons/1F1EC-1F1F9.svg');
+}
+
+.tl-emo-1F1EC-1F1FA{
+	background:url('../emoticons/1F1EC-1F1FA.svg');
+}
+
+.tl-emo-1F1EC-1F1FC{
+	background:url('../emoticons/1F1EC-1F1FC.svg');
+}
+
+.tl-emo-1F1EC-1F1FE{
+	background:url('../emoticons/1F1EC-1F1FE.svg');
+}
+
+.tl-emo-1F1ED-1F1F0{
+	background:url('../emoticons/1F1ED-1F1F0.svg');
+}
+
+.tl-emo-1F1ED-1F1F3{
+	background:url('../emoticons/1F1ED-1F1F3.svg');
+}
+
+.tl-emo-1F1ED-1F1F7{
+	background:url('../emoticons/1F1ED-1F1F7.svg');
+}
+
+.tl-emo-1F1ED-1F1F9{
+	background:url('../emoticons/1F1ED-1F1F9.svg');
+}
+
+.tl-emo-1F1ED-1F1FA{
+	background:url('../emoticons/1F1ED-1F1FA.svg');
+}
+
+.tl-emo-1F1EE-1F1E9{
+	background:url('../emoticons/1F1EE-1F1E9.svg');
+}
+
+.tl-emo-1F1EE-1F1EA{
+	background:url('../emoticons/1F1EE-1F1EA.svg');
+}
+
+.tl-emo-1F1EE-1F1F1{
+	background:url('../emoticons/1F1EE-1F1F1.svg');
+}
+
+.tl-emo-1F1EE-1F1F3{
+	background:url('../emoticons/1F1EE-1F1F3.svg');
+}
+
+.tl-emo-1F1EE-1F1F6{
+	background:url('../emoticons/1F1EE-1F1F6.svg');
+}
+
+.tl-emo-1F1EE-1F1F7{
+	background:url('../emoticons/1F1EE-1F1F7.svg');
+}
+
+.tl-emo-1F1EE-1F1F8{
+	background:url('../emoticons/1F1EE-1F1F8.svg');
+}
+
+.tl-emo-1F1EE-1F1F9{
+	background:url('../emoticons/1F1EE-1F1F9.svg');
+}
+
+.tl-emo-1F1EF-1F1EA{
+	background:url('../emoticons/1F1EF-1F1EA.svg');
+}
+
+.tl-emo-1F1EF-1F1F2{
+	background:url('../emoticons/1F1EF-1F1F2.svg');
+}
+
+.tl-emo-1F1EF-1F1F4{
+	background:url('../emoticons/1F1EF-1F1F4.svg');
+}
+
+.tl-emo-1F1EF-1F1F5{
+	background:url('../emoticons/1F1EF-1F1F5.svg');
+}
+
+.tl-emo-1F1F0-1F1EA{
+	background:url('../emoticons/1F1F0-1F1EA.svg');
+}
+
+.tl-emo-1F1F0-1F1EC{
+	background:url('../emoticons/1F1F0-1F1EC.svg');
+}
+
+.tl-emo-1F1F0-1F1ED{
+	background:url('../emoticons/1F1F0-1F1ED.svg');
+}
+
+.tl-emo-1F1F0-1F1EE{
+	background:url('../emoticons/1F1F0-1F1EE.svg');
+}
+
+.tl-emo-1F1F0-1F1F2{
+	background:url('../emoticons/1F1F0-1F1F2.svg');
+}
+
+.tl-emo-1F1F0-1F1F3{
+	background:url('../emoticons/1F1F0-1F1F3.svg');
+}
+
+.tl-emo-1F1F0-1F1F5{
+	background:url('../emoticons/1F1F0-1F1F5.svg');
+}
+
+.tl-emo-1F1F0-1F1F7{
+	background:url('../emoticons/1F1F0-1F1F7.svg');
+}
+
+.tl-emo-1F1F0-1F1FC{
+	background:url('../emoticons/1F1F0-1F1FC.svg');
+}
+
+.tl-emo-1F1F0-1F1FE{
+	background:url('../emoticons/1F1F0-1F1FE.svg');
+}
+
+.tl-emo-1F1F0-1F1FF{
+	background:url('../emoticons/1F1F0-1F1FF.svg');
+}
+
+.tl-emo-1F1F1-1F1E6{
+	background:url('../emoticons/1F1F1-1F1E6.svg');
+}
+
+.tl-emo-1F1F1-1F1E7{
+	background:url('../emoticons/1F1F1-1F1E7.svg');
+}
+
+.tl-emo-1F1F1-1F1E8{
+	background:url('../emoticons/1F1F1-1F1E8.svg');
+}
+
+.tl-emo-1F1F1-1F1EE{
+	background:url('../emoticons/1F1F1-1F1EE.svg');
+}
+
+.tl-emo-1F1F1-1F1F0{
+	background:url('../emoticons/1F1F1-1F1F0.svg');
+}
+
+.tl-emo-1F1F1-1F1F7{
+	background:url('../emoticons/1F1F1-1F1F7.svg');
+}
+
+.tl-emo-1F1F1-1F1F8{
+	background:url('../emoticons/1F1F1-1F1F8.svg');
+}
+
+.tl-emo-1F1F1-1F1F9{
+	background:url('../emoticons/1F1F1-1F1F9.svg');
+}
+
+.tl-emo-1F1F1-1F1FA{
+	background:url('../emoticons/1F1F1-1F1FA.svg');
+}
+
+.tl-emo-1F1F1-1F1FB{
+	background:url('../emoticons/1F1F1-1F1FB.svg');
+}
+
+.tl-emo-1F1F1-1F1FE{
+	background:url('../emoticons/1F1F1-1F1FE.svg');
+}
+
+.tl-emo-1F1F2-1F1E6{
+	background:url('../emoticons/1F1F2-1F1E6.svg');
+}
+
+.tl-emo-1F1F2-1F1E8{
+	background:url('../emoticons/1F1F2-1F1E8.svg');
+}
+
+.tl-emo-1F1F2-1F1E9{
+	background:url('../emoticons/1F1F2-1F1E9.svg');
+}
+
+.tl-emo-1F1F2-1F1EA{
+	background:url('../emoticons/1F1F2-1F1EA.svg');
+}
+
+.tl-emo-1F1F2-1F1EC{
+	background:url('../emoticons/1F1F2-1F1EC.svg');
+}
+
+.tl-emo-1F1F2-1F1ED{
+	background:url('../emoticons/1F1F2-1F1ED.svg');
+}
+
+.tl-emo-1F1F2-1F1F0{
+	background:url('../emoticons/1F1F2-1F1F0.svg');
+}
+
+.tl-emo-1F1F2-1F1F1{
+	background:url('../emoticons/1F1F2-1F1F1.svg');
+}
+
+.tl-emo-1F1F2-1F1F2{
+	background:url('../emoticons/1F1F2-1F1F2.svg');
+}
+
+.tl-emo-1F1F2-1F1F3{
+	background:url('../emoticons/1F1F2-1F1F3.svg');
+}
+
+.tl-emo-1F1F2-1F1F4{
+	background:url('../emoticons/1F1F2-1F1F4.svg');
+}
+
+.tl-emo-1F1F2-1F1F7{
+	background:url('../emoticons/1F1F2-1F1F7.svg');
+}
+
+.tl-emo-1F1F2-1F1F8{
+	background:url('../emoticons/1F1F2-1F1F8.svg');
+}
+
+.tl-emo-1F1F2-1F1F9{
+	background:url('../emoticons/1F1F2-1F1F9.svg');
+}
+
+.tl-emo-1F1F2-1F1FA{
+	background:url('../emoticons/1F1F2-1F1FA.svg');
+}
+
+.tl-emo-1F1F2-1F1FB{
+	background:url('../emoticons/1F1F2-1F1FB.svg');
+}
+
+.tl-emo-1F1F2-1F1FC{
+	background:url('../emoticons/1F1F2-1F1FC.svg');
+}
+
+.tl-emo-1F1F2-1F1FD{
+	background:url('../emoticons/1F1F2-1F1FD.svg');
+}
+
+.tl-emo-1F1F2-1F1FE{
+	background:url('../emoticons/1F1F2-1F1FE.svg');
+}
+
+.tl-emo-1F1F2-1F1FF{
+	background:url('../emoticons/1F1F2-1F1FF.svg');
+}
+
+.tl-emo-1F1F3-1F1E6{
+	background:url('../emoticons/1F1F3-1F1E6.svg');
+}
+
+.tl-emo-1F1F3-1F1E8{
+	background:url('../emoticons/1F1F3-1F1E8.svg');
+}
+
+.tl-emo-1F1F3-1F1EA{
+	background:url('../emoticons/1F1F3-1F1EA.svg');
+}
+
+.tl-emo-1F1F3-1F1EC{
+	background:url('../emoticons/1F1F3-1F1EC.svg');
+}
+
+.tl-emo-1F1F3-1F1EE{
+	background:url('../emoticons/1F1F3-1F1EE.svg');
+}
+
+.tl-emo-1F1F3-1F1F1{
+	background:url('../emoticons/1F1F3-1F1F1.svg');
+}
+
+.tl-emo-1F1F3-1F1F4{
+	background:url('../emoticons/1F1F3-1F1F4.svg');
+}
+
+.tl-emo-1F1F3-1F1F5{
+	background:url('../emoticons/1F1F3-1F1F5.svg');
+}
+
+.tl-emo-1F1F3-1F1F7{
+	background:url('../emoticons/1F1F3-1F1F7.svg');
+}
+
+.tl-emo-1F1F3-1F1FA{
+	background:url('../emoticons/1F1F3-1F1FA.svg');
+}
+
+.tl-emo-1F1F3-1F1FF{
+	background:url('../emoticons/1F1F3-1F1FF.svg');
+}
+
+.tl-emo-1F1F4-1F1F2{
+	background:url('../emoticons/1F1F4-1F1F2.svg');
+}
+
+.tl-emo-1F1F5-1F1E6{
+	background:url('../emoticons/1F1F5-1F1E6.svg');
+}
+
+.tl-emo-1F1F5-1F1EA{
+	background:url('../emoticons/1F1F5-1F1EA.svg');
+}
+
+.tl-emo-1F1F5-1F1EB{
+	background:url('../emoticons/1F1F5-1F1EB.svg');
+}
+
+.tl-emo-1F1F5-1F1EC{
+	background:url('../emoticons/1F1F5-1F1EC.svg');
+}
+
+.tl-emo-1F1F5-1F1ED{
+	background:url('../emoticons/1F1F5-1F1ED.svg');
+}
+
+.tl-emo-1F1F5-1F1F0{
+	background:url('../emoticons/1F1F5-1F1F0.svg');
+}
+
+.tl-emo-1F1F5-1F1F1{
+	background:url('../emoticons/1F1F5-1F1F1.svg');
+}
+
+.tl-emo-1F1F5-1F1F7{
+	background:url('../emoticons/1F1F5-1F1F7.svg');
+}
+
+.tl-emo-1F1F5-1F1F8{
+	background:url('../emoticons/1F1F5-1F1F8.svg');
+}
+
+.tl-emo-1F1F5-1F1F9{
+	background:url('../emoticons/1F1F5-1F1F9.svg');
+}
+
+.tl-emo-1F1F5-1F1FC{
+	background:url('../emoticons/1F1F5-1F1FC.svg');
+}
+
+.tl-emo-1F1F5-1F1FE{
+	background:url('../emoticons/1F1F5-1F1FE.svg');
+}
+
+.tl-emo-1F1F6-1F1E6{
+	background:url('../emoticons/1F1F6-1F1E6.svg');
+}
+
+.tl-emo-1F1F7-1F1F4{
+	background:url('../emoticons/1F1F7-1F1F4.svg');
+}
+
+.tl-emo-1F1F7-1F1F8{
+	background:url('../emoticons/1F1F7-1F1F8.svg');
+}
+
+.tl-emo-1F1F7-1F1FA{
+	background:url('../emoticons/1F1F7-1F1FA.svg');
+}
+
+.tl-emo-1F1F7-1F1FC{
+	background:url('../emoticons/1F1F7-1F1FC.svg');
+}
+
+.tl-emo-1F1F8-1F1E6{
+	background:url('../emoticons/1F1F8-1F1E6.svg');
+}
+
+.tl-emo-1F1F8-1F1E7{
+	background:url('../emoticons/1F1F8-1F1E7.svg');
+}
+
+.tl-emo-1F1F8-1F1E8{
+	background:url('../emoticons/1F1F8-1F1E8.svg');
+}
+
+.tl-emo-1F1F8-1F1E9{
+	background:url('../emoticons/1F1F8-1F1E9.svg');
+}
+
+.tl-emo-1F1F8-1F1EA{
+	background:url('../emoticons/1F1F8-1F1EA.svg');
+}
+
+.tl-emo-1F1F8-1F1EC{
+	background:url('../emoticons/1F1F8-1F1EC.svg');
+}
+
+.tl-emo-1F1F8-1F1ED{
+	background:url('../emoticons/1F1F8-1F1ED.svg');
+}
+
+.tl-emo-1F1F8-1F1EE{
+	background:url('../emoticons/1F1F8-1F1EE.svg');
+}
+
+.tl-emo-1F1F8-1F1F0{
+	background:url('../emoticons/1F1F8-1F1F0.svg');
+}
+
+.tl-emo-1F1F8-1F1F1{
+	background:url('../emoticons/1F1F8-1F1F1.svg');
+}
+
+.tl-emo-1F1F8-1F1F2{
+	background:url('../emoticons/1F1F8-1F1F2.svg');
+}
+
+.tl-emo-1F1F8-1F1F3{
+	background:url('../emoticons/1F1F8-1F1F3.svg');
+}
+
+.tl-emo-1F1F8-1F1F4{
+	background:url('../emoticons/1F1F8-1F1F4.svg');
+}
+
+.tl-emo-1F1F8-1F1F7{
+	background:url('../emoticons/1F1F8-1F1F7.svg');
+}
+
+.tl-emo-1F1F8-1F1F9{
+	background:url('../emoticons/1F1F8-1F1F9.svg');
+}
+
+.tl-emo-1F1F8-1F1FB{
+	background:url('../emoticons/1F1F8-1F1FB.svg');
+}
+
+.tl-emo-1F1F8-1F1FE{
+	background:url('../emoticons/1F1F8-1F1FE.svg');
+}
+
+.tl-emo-1F1F8-1F1FF{
+	background:url('../emoticons/1F1F8-1F1FF.svg');
+}
+
+.tl-emo-1F1F9-1F1E9{
+	background:url('../emoticons/1F1F9-1F1E9.svg');
+}
+
+.tl-emo-1F1F9-1F1EC{
+	background:url('../emoticons/1F1F9-1F1EC.svg');
+}
+
+.tl-emo-1F1F9-1F1ED{
+	background:url('../emoticons/1F1F9-1F1ED.svg');
+}
+
+.tl-emo-1F1F9-1F1EF{
+	background:url('../emoticons/1F1F9-1F1EF.svg');
+}
+
+.tl-emo-1F1F9-1F1F1{
+	background:url('../emoticons/1F1F9-1F1F1.svg');
+}
+
+.tl-emo-1F1F9-1F1F2{
+	background:url('../emoticons/1F1F9-1F1F2.svg');
+}
+
+.tl-emo-1F1F9-1F1F3{
+	background:url('../emoticons/1F1F9-1F1F3.svg');
+}
+
+.tl-emo-1F1F9-1F1F4{
+	background:url('../emoticons/1F1F9-1F1F4.svg');
+}
+
+.tl-emo-1F1F9-1F1F7{
+	background:url('../emoticons/1F1F9-1F1F7.svg');
+}
+
+.tl-emo-1F1F9-1F1F9{
+	background:url('../emoticons/1F1F9-1F1F9.svg');
+}
+
+.tl-emo-1F1F9-1F1FB{
+	background:url('../emoticons/1F1F9-1F1FB.svg');
+}
+
+.tl-emo-1F1F9-1F1FC{
+	background:url('../emoticons/1F1F9-1F1FC.svg');
+}
+
+.tl-emo-1F1F9-1F1FF{
+	background:url('../emoticons/1F1F9-1F1FF.svg');
+}
+
+.tl-emo-1F1FA-1F1E6{
+	background:url('../emoticons/1F1FA-1F1E6.svg');
+}
+
+.tl-emo-1F1FA-1F1EC{
+	background:url('../emoticons/1F1FA-1F1EC.svg');
+}
+
+.tl-emo-1F1FA-1F1F8{
+	background:url('../emoticons/1F1FA-1F1F8.svg');
+}
+
+.tl-emo-1F1FA-1F1FE{
+	background:url('../emoticons/1F1FA-1F1FE.svg');
+}
+
+.tl-emo-1F1FA-1F1FF{
+	background:url('../emoticons/1F1FA-1F1FF.svg');
+}
+
+.tl-emo-1F1FB-1F1E6{
+	background:url('../emoticons/1F1FB-1F1E6.svg');
+}
+
+.tl-emo-1F1FB-1F1E8{
+	background:url('../emoticons/1F1FB-1F1E8.svg');
+}
+
+.tl-emo-1F1FB-1F1EA{
+	background:url('../emoticons/1F1FB-1F1EA.svg');
+}
+
+.tl-emo-1F1FB-1F1EE{
+	background:url('../emoticons/1F1FB-1F1EE.svg');
+}
+
+.tl-emo-1F1FB-1F1F3{
+	background:url('../emoticons/1F1FB-1F1F3.svg');
+}
+
+.tl-emo-1F1FB-1F1FA{
+	background:url('../emoticons/1F1FB-1F1FA.svg');
+}
+
+.tl-emo-1F1FC-1F1EB{
+	background:url('../emoticons/1F1FC-1F1EB.svg');
+}
+
+.tl-emo-1F1FC-1F1F8{
+	background:url('../emoticons/1F1FC-1F1F8.svg');
+}
+
+.tl-emo-1F1FD-1F1F0{
+	background:url('../emoticons/1F1FD-1F1F0.svg');
+}
+
+.tl-emo-1F1FE-1F1EA{
+	background:url('../emoticons/1F1FE-1F1EA.svg');
+}
+
+.tl-emo-1F1FF-1F1E6{
+	background:url('../emoticons/1F1FF-1F1E6.svg');
+}
+
+.tl-emo-1F1FF-1F1F2{
+	background:url('../emoticons/1F1FF-1F1F2.svg');
+}
+
+.tl-emo-1F1FF-1F1FC{
+	background:url('../emoticons/1F1FF-1F1FC.svg');
+}
