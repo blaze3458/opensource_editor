@@ -67,7 +67,7 @@ input.not-empty + label.tl-link-label{color:crimson;}
 .ed-cont{position:relative; padding:0px 5px;}
 .ed-in{border:2px outset crimson; padding: 10px; height: auto; background: transparent; margin: 0; overflow: hidden;}
 .editor{min-height:500px; outline: 0; line-height:1.42;}
-.editor-blank:before{content:attr(data-placeholder);}
+.editor-blank:before{content: attr(data-placeholder); color: rgba(187,187,187,1); font-style: normal; left: 15px; pointer-events: none; position: absolute; right: 15px;}
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?xxhg7v');

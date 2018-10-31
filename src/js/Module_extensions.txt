@@ -4,7 +4,8 @@ modules:{
 	#toolbar_options:{
 		sticky:false,
 		position:top,
-		#tooltip:false
+		#tooltip:false,
+		width:auto
 	}
 	#fontsize:[8,9,10,11,12]
 	#fonttype:[]

@@ -1,5 +1,7 @@
-import log from './log';
 import extend from 'extend';
+
+import Events from './events';
+import log from './log';
 
 
 let debug = log('Refuon::');
@@ -14,8 +16,23 @@ class Refuon {
 		this.container = this.options.container;
 		this.toolbarContainer = this.options.toolbarContainer;
 		
-		this.setToolbar();
+		this.container.classList.add('rfo-container');
+		this.container.__refuon = this;
 		
+		this.toolbar = this.setToolbar();
+		this.content = this.setEditor();
+		
+		//this.editor = new Editor(this.content);
+		this.events = new Events();
+		
+		/*this.events.on(Events.eventlist.EDITOR_CHANGE, (type) => {
+			if (type === Events.eventlist.TEXT_CHANGE) {
+				this.editor.children[0].children[0].classList.toggle('editor-blank', this.editor.isBlank());
+			}
+		});*/
+		console.log(this.container.__refuon);
+		console.log(this.toolbar);
+		console.log(this.content);
 	}
 	
 	registerModule(path,target){
@@ -23,10 +40,15 @@ class Refuon {
 	}
 	
 	setToolbar(){
-		this.toolbarContainer.classList.add('refuon-toolbar');
-		this.toolbarContainer.innerHTML = '';
-		this.toolbar = this.addContainerToToolbar('tl');
-		let toolbarInner = this.addToolbarElement(this.toolbar,'b-tl');
+		let toolbar = this.addContainerToToolbar('refuon-toolbar');
+		
+		let toolbarWidth = this.options.modules.toolbarOptions.width;
+		
+		if(typeof toolbarWidth === "number" && toolbarWidth > 0)
+			toolbar.style.width = toolbarWidth + "px";
+		
+		let toolbarInner = this.addElement(toolbar,'tl');
+		let buttonInner = this.addElement(toolbarInner,'b-tl');
 		
 		let buttons = this.options.modules.toolbar;
 		
@@ -39,9 +61,22 @@ class Refuon {
 				newButton.classList.add('icon-'+button);
 				newSeparator.insertBefore(newButton,null);
 			});
-			toolbarInner.insertBefore(newSeparator,null);
+			buttonInner.insertBefore(newSeparator,null);
 		});
 		
+		return toolbar;
+	}
+	
+	setEditor(){
+		let editor = this.addContainer('ed-cont');
+		let editorInner = this.addElement(editor,'ed-in');
+		let content = this.addElement(editorInner,'editor');
+		let placeholder = this.options.placeholder;
+		content.classList.add('editor-blank');
+		content.setAttribute('contenteditable','true');
+		content.setAttribute('data-placeholder',placeholder);
+
+		return editor;
 	}
 	
 	addContainer(container, refNode = null) {
@@ -64,7 +99,7 @@ class Refuon {
 		return container;
 	}
 	
-	addToolbarElement(elm,container, refNode = null) {
+	addElement(elm,container, refNode = null) {
 		if (typeof container === 'string') {
 			let className = container;
 			container = document.createElement('div');
@@ -93,6 +128,7 @@ function getOptions(container,options){
 	let customButtons = options.modules.customButtons;
 	if(toolbar.length !== 0){
 		let checkedtoolbar = [];
+		let duplicateChecker = [];
 		toolbar.forEach(function(separator){
 			let checkedSeparator = [];
 			separator.forEach(function(button){
@@ -114,7 +150,12 @@ function getOptions(container,options){
 						options = extend(true,{},defaultcolorpicker,options);
 					}
 					
-					checkedSeparator.push(button);
+					if(duplicateChecker.includes(button))
+						debug.warn(`Duplicate button ${button}.`);
+					else{
+						duplicateChecker.push(button);
+						checkedSeparator.push(button);
+					}
 				}
 			});
 			checkedtoolbar.push(checkedSeparator);
@@ -125,11 +166,14 @@ function getOptions(container,options){
 		let newModules = {modules:{toolbar:Refuon.READY_OPTIONS.modules.toolbar}};
 		options = extend(true,{},newModules,options);
 	}
+	
 	['toolbarContainer','container'].forEach(function(key){
-		if(options[key] === null)
-			options[key] = document.querySelector(options['container']);
-		else
-			options[key] = document.querySelector(options[key]);
+		if(typeof options[key] === 'string'){
+			if(options[key].length === 0)
+				options[key] = document.querySelector(options['container']);
+			else
+				options[key] = document.querySelector(options[key]);
+		}
 	});
 	
 	
@@ -137,21 +181,28 @@ function getOptions(container,options){
 	return options;
 }
 
+function insertAfter(newNode, referenceNode) {
+	referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
 Refuon.DEFAULT_BUTTONS = [
-	'bold','italic','underline','strike','undo','redo','subscript','superscript','emoji',
+	'bold','italic','underline','strikethrough','undo','redo','subscript','superscript','emoji',
 	'link','image','printer','quote','code','colorpicker','fonttype','fontsize','leftindent','rightindent',
 	'unorderedlist','orderedlist','align','fullscreen'
 ]
 
 Refuon.DEFAULT_OPTIONS = {
 	placeholder : '',
-	toolbarContainer:null,
+	toolbarContainer:'',
+	width:0,
+	height:0,
 	modules:{
 		toolbar:[],
 		toolbarOptions:{
 			sticky:false,
 			position:'top',
-			tooltip:false
+			tooltip:false,
+			width:0
 		},
 		fontsize:[],
 		fonttype:[],
@@ -162,17 +213,20 @@ Refuon.DEFAULT_OPTIONS = {
 
 Refuon.READY_OPTIONS = {
 	placeholder:'Message',
-	toolbarContainer:null,
+	toolbarContainer:'',
+	width:0,
+	height:0,
 	modules:{
 		toolbar:[
-			['bold','italic','underline','strike'],
+			['bold','italic','underline','strikethrough'],
 			['fontsize','fonttype'],
 			['undo','redo']
 		],
-		toolbar_options:{
+		toolbarOptions:{
 			sticky:false,
 			position:'top',
-			tooltip:false
+			tooltip:false,
+			width:0
 		},
 		fontsize:[8,9,10,11,12,14,16,18,20,25,30,36],
 		fonttype:['Arial','Times New Roman','Comic Sans MS','Verdana','Tahoma','Calibri'],

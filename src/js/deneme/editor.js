@@ -26,8 +26,9 @@ document.getElementsByClassName("icon-bold")[0].addEventListener("click", functi
 var edit = new Refuon("#test",{
 	modules:{
 		toolbar:[
-			['bold','italic','fontsize','fontType'],
-			['undo','redo','colorpicker']
+			['undo','redo'],
+			['bold',,'italic','underline','strikethrough'],
+			['colorpicker','fonttype','fontsize']
 		],
 		toolbarOptions:{
 			showSelection:true,

@@ -13,7 +13,7 @@ module.exports = {
 	},
 	watch:true,
 	devServer:{
-		contentBase: path.join(__dirname, "/"),
+		contentBase: path.join(__dirname, "/src"),
 		port:3000
 	},
 	module: {
@@ -26,6 +26,6 @@ module.exports = {
 	},
 	plugins: [
 		new webpack.ProgressPlugin(),
-		new HtmlWebpackPlugin({template: './src/index.html'})
+		new HtmlWebpackPlugin({template: './src/index.html'})    //output JS create eder.
   ]
 };
