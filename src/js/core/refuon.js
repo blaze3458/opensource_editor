@@ -1,6 +1,8 @@
 import extend from 'extend';
 
 import Events from './events';
+import Editor from './editor';
+import Selection from './selection';
 import log from './log';
 
 
@@ -22,21 +24,61 @@ class Refuon {
 		this.toolbar = this.setToolbar();
 		this.content = this.setEditor();
 		
-		//this.editor = new Editor(this.content);
-		this.events = new Events();
+		let editorOptions = {
+				counter : this.options.counter,
+				charCounterMax : this.options.charCounterMax,
+				height : this.options.height,
+				heightMax : this.options.heightMax,
+				heightMin : this.options.heightMin
+			};
 		
-		/*this.events.on(Events.eventlist.EDITOR_CHANGE, (type) => {
-			if (type === Events.eventlist.TEXT_CHANGE) {
-				this.editor.children[0].children[0].classList.toggle('editor-blank', this.editor.isBlank());
+		this.events = new Events();
+		this.editor = new Editor(this.content,editorOptions,this.events);
+		this.selection = new Selection(this.editor,this.events);
+		
+		this.events.listenDOM('input',this.content,()=>{
+			
+			if(this.options.charCounterMax > 0 && this.editor.getLength() > this.options.charCounterMax){
+				return;
 			}
-		});*/
-		console.log(this.container.__refuon);
+			console.log('input');
+			console.log(event);
+			this.update();
+		});
+		
+		this.events.on(Events.eventlist.EDITOR_CHANGE, (type,evnt) => {
+			if (type === Events.eventlist.TEXT_CHANGE) {
+				this.content.children[0].children[0].classList.toggle('editor-blank', this.editor.isBlank());
+			}
+		});
+		
+		this.editor.setDefault();
+		
+		if(this.options.onFocus)
+			this.focus();
+		
+		console.log(this);
 		console.log(this.toolbar);
 		console.log(this.content);
 	}
 	
-	registerModule(path,target){
-		
+	static registerModule(path,target, overwrite = false){
+		if (typeof path !== 'string') {
+			let name = path.attrName || path.blotName;
+			if (typeof name === 'string') {
+				this.registerModule('formats/' + name, path, target);
+			} 
+			else {
+				Object.keys(path).forEach((key) => {
+					this.registerModule(key, path[key], target);
+				});
+			}
+		} 
+		else
+		{
+			this.imports[path] = target;
+			
+		}
 	}
 	
 	setToolbar(){
@@ -63,19 +105,44 @@ class Refuon {
 			});
 			buttonInner.insertBefore(newSeparator,null);
 		});
-		
 		return toolbar;
 	}
 	
 	setEditor(){
 		let editor = this.addContainer('ed-cont');
+		
+		if(this.options.documentReady)
+			editor.classList.add('ed-docready');
+		
 		let editorInner = this.addElement(editor,'ed-in');
 		let content = this.addElement(editorInner,'editor');
+		
+		if(this.options.counter || this.options.charCounterMax > 0)
+			var editorCounter = this.addElement(editorInner,'editor-counter');
+		
+		
 		let placeholder = this.options.placeholder;
 		content.classList.add('editor-blank');
 		content.setAttribute('contenteditable','true');
 		content.setAttribute('data-placeholder',placeholder);
-
+		
+		if(this.options.height > 0){
+			content.style.height = this.options.height+"px";
+			content.style.overflow = 'auto';
+		}
+		else{
+			
+			if(this.options.heightMax > 0){
+				content.style.maxHeight = this.options.heightMax+"px";
+				content.style.overflow = 'auto';
+			}
+		
+			if(this.options.heightMin > 0){
+				content.style.minHeight = this.options.heightMin+"px";
+				content.style.overflow = 'auto';
+			}
+		}
+		
 		return editor;
 	}
 	
@@ -107,6 +174,27 @@ class Refuon {
 		}
 		let newElm = elm.insertBefore(container, refNode);
 		return newElm;
+	}
+	
+	update(){
+		if(this.options.counter || this.options.charCounterMax > 0)
+			this.editor.updateCounter();
+		
+		let args = [Events.eventlist.TEXT_CHANGE];
+		this.events.emit(Events.eventlist.EDITOR_CHANGE,...args);
+	}
+	
+	blur(){
+		this.editor.blur();
+	}
+	
+	focus(){
+		this.editor.focus();
+	}
+	
+	clear(){
+		this.editor.clear();
+		this.update();
 	}
 }
 
@@ -186,7 +274,7 @@ function insertAfter(newNode, referenceNode) {
 }
 
 Refuon.DEFAULT_BUTTONS = [
-	'bold','italic','underline','strikethrough','undo','redo','subscript','superscript','emoji',
+	'bold','italic','underline','strikethrough','undo','redo','subscript','superscript','emoticon',
 	'link','image','printer','quote','code','colorpicker','fonttype','fontsize','leftindent','rightindent',
 	'unorderedlist','orderedlist','align','fullscreen'
 ]
@@ -194,15 +282,19 @@ Refuon.DEFAULT_BUTTONS = [
 Refuon.DEFAULT_OPTIONS = {
 	placeholder : '',
 	toolbarContainer:'',
-	width:0,
 	height:0,
+	heightMax:0,
+	heightMin:0,
+	counter:false,
+	charCounterMax:0,
+	documentReady:false,
+	onFocus:false,
 	modules:{
 		toolbar:[],
 		toolbarOptions:{
 			sticky:false,
 			position:'top',
 			tooltip:false,
-			width:0
 		},
 		fontsize:[],
 		fonttype:[],
@@ -214,8 +306,13 @@ Refuon.DEFAULT_OPTIONS = {
 Refuon.READY_OPTIONS = {
 	placeholder:'Message',
 	toolbarContainer:'',
-	width:0,
 	height:0,
+	heightMax:0,
+	heightMin:0,
+	counter:false,
+	charCounterMax:0,
+	documentReady:false,
+	onFocus:false,
 	modules:{
 		toolbar:[
 			['bold','italic','underline','strikethrough'],
@@ -226,7 +323,6 @@ Refuon.READY_OPTIONS = {
 			sticky:false,
 			position:'top',
 			tooltip:false,
-			width:0
 		},
 		fontsize:[8,9,10,11,12,14,16,18,20,25,30,36],
 		fonttype:['Arial','Times New Roman','Comic Sans MS','Verdana','Tahoma','Calibri'],
@@ -234,4 +330,6 @@ Refuon.READY_OPTIONS = {
 	},
 }
 
-export {Refuon};
+Refuon.imports = {}
+
+export default Refuon;

@@ -4,7 +4,7 @@ import log from './log';
 let debug = log('Refuon::events');
 
 
-const EVENTS = ['selectionchange', 'mousedown', 'mouseup', 'click'];
+const EVENTS = ['selectionchange', 'mousedown', 'mouseup', 'click','input','keypress'];
 
 EVENTS.forEach(function(eventName) {
   document.addEventListener(eventName, (...args) => {
@@ -26,33 +26,33 @@ class Events extends EventEmitter {
 	}
 	
 	emit() {
-    debug.log.apply(debug, arguments);
-    super.emit.apply(this, arguments);
-  }
+		debug.log.apply(debug, arguments);
+		super.emit.apply(this, arguments);
+	}
 
-  handleDOM(event, ...args) {
-    (this.listeners[event.type] || []).forEach(function({ node, handler }) {
-      if (event.target === node || node.contains(event.target)) {
-        handler(event, ...args);
-      }
-    });
-  }
+	handleDOM(event, ...args) {
+		(this.listeners[event.type] || []).forEach(function({ node, handler }) {
+			if (event.target === node || node.contains(event.target)) {
+				handler(event, ...args);
+			}
+		});
+	}
 
-  listenDOM(eventName, node, handler) {
-    if (!this.listeners[eventName]) {
-      this.listeners[eventName] = [];
-    }
-    this.listeners[eventName].push({ node, handler })
-  }
+	listenDOM(eventName, node, handler) {
+		if (!this.listeners[eventName]) {
+			this.listeners[eventName] = [];
+		}
+		this.listeners[eventName].push({ node, handler })
+	}
 }
 
 Events.eventlist = {
-  EDITOR_CHANGE        : 'editor-change',
-  SCROLL_BEFORE_UPDATE : 'scroll-before-update',
-  SCROLL_OPTIMIZE      : 'scroll-optimize',
-  SCROLL_UPDATE        : 'scroll-update',
-  SELECTION_CHANGE     : 'selection-change',
-  TEXT_CHANGE          : 'text-change'
+	EDITOR_CHANGE        : 'editor-change',
+	SCROLL_BEFORE_UPDATE : 'scroll-before-update',
+	SCROLL_OPTIMIZE      : 'scroll-optimize',
+	SCROLL_UPDATE        : 'scroll-update',
+	SELECTION_CHANGE     : 'selection-change',
+	TEXT_CHANGE          : 'text-change'
 };
 
 export default Events;
